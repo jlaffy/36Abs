@@ -1,0 +1,2469 @@
+BLASTP 2.2.31+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: TAMB8UR0014
+
+
+Database: PDB protein database
+           77,700 sequences; 18,991,765 total letters
+Query= immh149_M_V3_59726
+
+Length=131
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+pdb|4C2I|H  Chain H, Cryo-em Structure Of Dengue Virus Serotyp...  214     4e-70
+pdb|4ERS|H  Chain H, A Molecular Basis For Negative Regulation...  209     3e-68
+pdb|4LF3|B  Chain B, Inhibitory Mechanism Of An Allosteric Ant...  208     9e-68
+pdb|3F12|B  Chain B, Germline V-Genes Sculpt The Binding Site ...  207     2e-67
+pdb|4ODH|H  Chain H, Crystal Structure Of Human Fab Cap256-vrc...  207     2e-67
+pdb|3EYQ|D  Chain D, Crystal Structure Of Mj5 Fab, A Germline ...  206     7e-67
+pdb|1HEZ|B  Chain B, Antibody-Antigen Complex                      204     2e-66
+pdb|3ZTJ|G  Chain G, Structure Of Influenza A Neutralizing Ant...  204     3e-66
+pdb|1DEE|B  Chain B, Crystal Structure At 2.7a Resolution Of A...  203     5e-66
+pdb|1NL0|H  Chain H, Crystal Structure Of Human Factor Ix Gla ...  201     2e-65
+pdb|3KDM|H  Chain H, Crystal Structure Of Human Anti-Steroid F...  199     1e-64
+pdb|1AQK|H  Chain H, Three-Dimensional Structure Of A Human Fa...  199     1e-64
+pdb|1T2J|A  Chain A, Crystal Structure Of A Human Vh Domain        196     1e-64
+pdb|3IDX|H  Chain H, Crystal Structure Of Hiv-Gp120 Core In Co...  199     2e-64
+pdb|2GHW|B  Chain B, Crystal Structure Of Sars Spike Protein R...  199     4e-64
+pdb|4GXU|M  Chain M, Crystal Structure Of Antibody 1f1 Bound T...  198     6e-64
+pdb|3GIZ|H  Chain H, Crystal Structure Of The Fab Fragment Of ...  195     7e-63
+pdb|4Y5X|A  Chain A, Diabody 305 Complex With Epor                 191     2e-62
+pdb|4HF5|H  Chain H, Crystal Structure Of Fab 8f8 In Complex A...  194     2e-62
+pdb|4PY7|I  Chain I, Crystal Structure Of Fab 3.1                  193     3e-62
+pdb|4G5Z|H  Chain H, Crystal Structure Of The Therapeutical An...  193     4e-62
+pdb|4QCI|B  Chain B, Pdgf-b Blocking Antibody Bound To Pdgf-bb     193     5e-62
+pdb|4HH9|B  Chain B, Anti-human Cytomegalovirus (hcmv) Fab Ke5     193     5e-62
+pdb|1W72|H  Chain H, Crystal Structure Of Hla-A1:mage-A1 In Co...  192     6e-62
+pdb|3GJE|H  Chain H, Rational Development Of High-Affinity T-C...  192     8e-62
+pdb|4XI5|D  Chain D, Ghgl Of Varicella-zoster Virus In Complex...  193     3e-61
+pdb|2V7N|B  Chain B, Unusual Twinning In Crystals Of The Cits ...  190     6e-61
+pdb|3GHE|H  Chain H, Crystal Structure Of Anti-Hiv-1 Fab 537-1...  190     7e-61
+pdb|3QOS|H  Chain H, Crystal Structure Of Human Germline Antib...  189     3e-60
+pdb|4OCR|H  Chain H, Crystal Structure Of Human Fab Cap256-vrc...  189     6e-60
+pdb|4HIE|B  Chain B, Anti-streptococcus Pneumoniae 23f Fab 023...  187     9e-60
+pdb|3G6D|H  Chain H, Crystal Structure Of The Complex Between ...  187     1e-59
+pdb|4DGV|H  Chain H, Structure Of The Hepatitis C Virus Envelo...  187     1e-59
+pdb|4Y5V|A  Chain A, Diabody 305 Complex With Epor                 184     1e-59
+pdb|4U6V|H  Chain H, Mechanisms Of Neutralization Of A Human A...  186     2e-59
+pdb|4P59|H  Chain H, Her3 Extracellular Domain In Complex With...  187     2e-59
+pdb|1DQL|H  Chain H, Crystal Structure Of An Unliganded (Nativ...  183     2e-59
+pdb|3ZHK|A  Chain A, The Crystal Structure Of Single Domain An...  182     5e-59
+pdb|3UX9|B  Chain B, Structural Insights Into A Human Anti-Ifn...  186     5e-59
+pdb|3KR3|H  Chain H, Crystal Structure Of Igf-Ii Antibody Complex  186     5e-59
+pdb|4FZ8|H  Chain H, Crystal Structure Of C11 Fab, An Adcc Med...  185     6e-59
+pdb|3HAE|H  Chain H, Rational Development Of High-Affinity T-C...  185     7e-59
+pdb|3UPC|A  Chain A, A General Strategy For The Generation Of ...  181     9e-59
+pdb|3SO3|C  Chain C, Structures Of Fab-Protease Complexes Reve...  184     1e-58
+pdb|4LRI|P  Chain P, Anti Cmv Fab Fragment                         184     1e-58
+pdb|2VXS|H  Chain H, Structure Of Il-17a In Complex With A Pot...  184     1e-58
+pdb|8FAB|B  Chain B, Crystal Structure Of The Fab Fragment Fro...  183     3e-58
+pdb|4OQT|H  Chain H, Lingo-1/li81 Fab Complex                      183     3e-58
+pdb|3TNN|H  Chain H, Crystal Structure Of N5-I5 Fab, An Adcc M...  182     5e-58
+pdb|4KVN|H  Chain H, Crystal Structure Of Fab 39.29 In Complex...  182     6e-58
+pdb|3NH7|H  Chain H, Crystal Structure Of The Neutralizing Fab...  182     7e-58
+pdb|2UZI|H  Chain H, Crystal Structure Of Hras(G12v) - Anti-Ra...  179     7e-58
+pdb|3PIQ|H  Chain H, Crystal Structure Of Human 2909 Fab, A Qu...  182     9e-58
+pdb|2GCY|B  Chain B, Humanized Antibody C25 Fab Fragment           182     1e-57
+pdb|4UTA|H  Chain H, Crystal Structure Of Dengue 2 Virus Envel...  183     1e-57
+pdb|4UT6|H  Chain H, Crystal Structure Of Dengue 2 Virus Envel...  183     1e-57
+pdb|4UTB|H  Chain H, Crystal Structure Of Dengue 2 Virus Envel...  182     3e-57
+pdb|4PTU|B  Chain B, Crystal Structure Of Anti-23f Strep Fab C...  181     3e-57
+pdb|4NKI|H  Chain H, Crystal Structure Of A Fab                    181     4e-57
+pdb|4FQL|H  Chain H, Influenza B Ha Antibody (Fab) Cr8033          181     4e-57
+pdb|1MHP|H  Chain H, Crystal Structure Of A Chimeric Alpha1 In...  180     5e-57
+pdb|4JFZ|H  Chain H, Structure Of Phosphoserine (psab) Scaffol...  181     5e-57
+pdb|2NZ9|D  Chain D, Crystal Structure Of Botulinum Neurotoxin...  180     5e-57
+pdb|3HR5|H  Chain H, M1prime Peptide From Ige Bound By Humaniz...  180     6e-57
+pdb|1Q1J|H  Chain H, Crystal Structure Analysis Of Anti-Hiv-1 ...  180     6e-57
+pdb|4OD1|H  Chain H, Crystal Structure Of Human Fab Cap256-vrc...  181     6e-57
+pdb|3GHB|H  Chain H, Crystal Structure Of Anti-Hiv-1 Fab 447-5...  180     7e-57
+pdb|2AAB|H  Chain H, Structural Basis Of Antigen Mimicry In A ...  180     8e-57
+pdb|4ORG|H  Chain H, Crystal Structure Of Human Fab Cap256-vrc...  181     8e-57
+pdb|3BN9|D  Chain D, Crystal Structure Of Mt-Sp1 In Complex Wi...  181     9e-57
+pdb|4UAO|C  Chain C, Crystal Structure Of Apical Membrane Anti...  179     1e-56
+pdb|2FJF|H  Chain H, Structure Of The G6 Fab, A Phage Derived ...  179     1e-56
+pdb|4NYL|H  Chain H, Crystal Structure Of Adalimumab Fab Fragment  179     1e-56
+pdb|3EOT|H  Chain H, Crystal Structure Of Lac031, An Engineere...  179     1e-56
+pdb|2B2X|H  Chain H, Vla1 Rdeltah I-Domain Complexed With A Qu...  179     1e-56
+pdb|4Y5Y|A  Chain A, Diabody 330 Complex With Epor                 176     1e-56
+pdb|4JG0|H  Chain H, Structure Of Phosphoserine/threonine (pst...  179     2e-56
+pdb|2A9N|H  Chain H, A Mutation Designed To Alter Crystal Pack...  176     2e-56
+pdb|4JG1|H  Chain H, Structure Of Phosphoserine/threonine (pst...  179     2e-56
+pdb|3Q6F|B  Chain B, Crystal Structure Of Fab Of Human Mab 290...  179     2e-56
+pdb|3SKJ|H  Chain H, Structural And Functional Characterizatio...  179     2e-56
+pdb|4JFY|B  Chain B, Apo Structure Of Phosphotyrosine (pyab) S...  179     2e-56
+pdb|1VHP|A  Chain A, Vh-P8, Nmr                                    175     2e-56
+pdb|4PGJ|A  Chain A, Human Heavy-chain Domain Antibody In Comp...  175     2e-56
+pdb|2VYR|E  Chain E, Structure Of Human Mdm4 N-terminal Domain...  176     4e-56
+pdb|2A9M|H  Chain H, Structural Analysis Of A Tight-Binding Fl...  174     4e-56
+pdb|4OCW|H  Chain H, Crystal Structure Of Human Fab Cap256-vrc...  179     4e-56
+pdb|4QF1|H  Chain H, Crystal Structure Of Unliganded Ch59ua, T...  177     5e-56
+pdb|3WD5|H  Chain H, Crystal Structure Of Tnfalpha In Complex ...  177     5e-56
+pdb|4DTG|H  Chain H, Hemostatic Effect Of A Monoclonal Antibod...  177     5e-56
+pdb|3G6J|F  Chain F, C3b In Complex With A C3b Specific Fab        177     6e-56
+pdb|2QQN|H  Chain H, Neuropilin-1 B1 Domain In Complex With A ...  177     6e-56
+pdb|3U30|C  Chain C, Crystal Structure Of A Linear-Specific Ub...  177     9e-56
+pdb|1IGM|H  Chain H, Three Dimensional Structure Of An Fv From...  174     9e-56
+pdb|3HI5|H  Chain H, Crystal Structure Of Fab Fragment Of Al-57    177     9e-56
+pdb|1DFB|H  Chain H, Structure Of A Human Monoclonal Antibody ...  177     9e-56
+pdb|3L95|B  Chain B, Crystal Structure Of The Human Notch1 Neg...  177     1e-55
+pdb|3ZHL|A  Chain A, The Crystal Structure Of Single Domain An...  173     1e-55
+pdb|2NYY|D  Chain D, Crystal Structure Of Botulinum Neurotoxin...  176     1e-55
+pdb|1OHQ|A  Chain A, Crystal Structure Of Hel4, A Soluble Huma...  172     2e-55
+
+ALIGNMENTS
+>pdb|4C2I|H Chain H, Cryo-em Structure Of Dengue Virus Serotype 1 Complexed 
+With Fab Fragments Of Human Antibody 1f4
+ pdb|4C2I|M Chain M, Cryo-em Structure Of Dengue Virus Serotype 1 Complexed 
+With Fab Fragments Of Human Antibody 1f4
+Length=232
+
+ Score = 214 bits (544),  Expect = 4e-70, Method: Compositional matrix adjust.
+ Identities = 107/131 (82%), Positives = 113/131 (86%), Gaps = 6/131 (5%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS   M WVRQAPGKGLEWVA+I YDGSNKYY
+Sbjct  5    QVQLVESGGGVVQPGRSLRLSCAASGFTFSAYGMHWVRQAPGKGLEWVAIIWYDGSNKYY  64
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTL+LQMNSLRAEDTA+YYCA+D+             Y+YGMDV
+Sbjct  65   ADSVKGRFTISRDNSKNTLHLQMNSLRAEDTAIYYCARDKN------PGTKPYYHYGMDV  118
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  119  WGQGTTVTVSS  129
+
+
+>pdb|4ERS|H Chain H, A Molecular Basis For Negative Regulation Of The Glucagon 
+Receptor
+Length=231
+
+ Score = 209 bits (532),  Expect = 3e-68, Method: Compositional matrix adjust.
+ Identities = 105/131 (80%), Positives = 113/131 (86%), Gaps = 3/131 (2%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS+  M WVRQAPGKGLEWVAV+ YDGSNK Y
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYGMHWVRQAPGKGLEWVAVMYYDGSNKDY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDNSKNTLYLQMN LRAEDTAVYYCA+++    ++       YYYG+DV
+Sbjct  61   VDSVKGRFTISRDNSKNTLYLQMNRLRAEDTAVYYCAREKDHYDILTG---YNYYYGLDV  117
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  118  WGQGTTVTVSS  128
+
+
+>pdb|4LF3|B Chain B, Inhibitory Mechanism Of An Allosteric Antibody Targeting 
+The Glucagon Receptor
+ pdb|4LF3|E Chain E, Inhibitory Mechanism Of An Allosteric Antibody Targeting 
+The Glucagon Receptor
+Length=231
+
+ Score = 208 bits (529),  Expect = 9e-68, Method: Compositional matrix adjust.
+ Identities = 105/131 (80%), Positives = 113/131 (86%), Gaps = 3/131 (2%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS+  M WVRQAPGKGLEWVAV+ YDGSNK Y
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYGMHWVRQAPGKGLEWVAVMWYDGSNKDY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDNSKNTLYLQMN LRAEDTAVYYCA+++    ++       YYYG+DV
+Sbjct  61   VDSVKGRFTISRDNSKNTLYLQMNRLRAEDTAVYYCAREKDHYDILTG---YNYYYGLDV  117
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  118  WGQGTTVTVSS  128
+
+
+>pdb|3F12|B Chain B, Germline V-Genes Sculpt The Binding Site Of A Family 
+Of Antibodies Neutralizing Human Cytomegalovirus
+ pdb|3F12|D Chain D, Germline V-Genes Sculpt The Binding Site Of A Family 
+Of Antibodies Neutralizing Human Cytomegalovirus
+Length=242
+
+ Score = 207 bits (527),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 108/131 (82%), Positives = 112/131 (85%), Gaps = 6/131 (5%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS+  M WVRQAPGKGLEWVAVISYDGSNKYY
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYGMHWVRQAPGKGLEWVAVISYDGSNKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD   A     + + G    +D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDGKCA---GGSCYSGL---LDY  114
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  115  WGQGTLVTVSS  125
+
+
+>pdb|4ODH|H Chain H, Crystal Structure Of Human Fab Cap256-vrc26.uca, A Potent 
+V1v2- Directed Hiv-1 Neutralizing Antibody
+Length=249
+
+ Score = 207 bits (528),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 108/144 (75%), Positives = 112/144 (78%), Gaps = 13/144 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS+  M WVRQAPGKGLEWVAVISYDGSNKYY
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYGMHWVRQAPGKGLEWVAVISYDGSNKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD-------------QFVAVVVP  107
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD                ++  P
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDLGESENEEWATDXXDFSIGYP  120
+
+Query  108  AAIHLGYYYGMDVWGQGTTVTVSS  131
+                 G     D+WGQGT VTVSS
+Sbjct  121  GQDPRGVVGAFDIWGQGTMVTVSS  144
+
+
+>pdb|3EYQ|D Chain D, Crystal Structure Of Mj5 Fab, A Germline Antibody Variant 
+Of Anti-Human Cytomegalovirus Antibody 8f9
+Length=242
+
+ Score = 206 bits (524),  Expect = 7e-67, Method: Compositional matrix adjust.
+ Identities = 107/131 (82%), Positives = 111/131 (85%), Gaps = 6/131 (5%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS+  M WVRQAPGKGLEWVAVISYDGSNKYY
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYGMHWVRQAPGKGLEWVAVISYDGSNKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD         + + G    +D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDGKCG---GGSCYSGL---LDY  114
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  115  WGQGTLVTVSS  125
+
+
+>pdb|1HEZ|B Chain B, Antibody-Antigen Complex
+ pdb|1HEZ|D Chain D, Antibody-Antigen Complex
+Length=224
+
+ Score = 204 bits (520),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 105/131 (80%), Positives = 107/131 (82%), Gaps = 10/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS   M WVRQAPGKGLEWVA+ISYD SNKYY
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSGYGMHWVRQAPGKGLEWVALISYDESNKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAK +F     P           D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKVKFYDPTAPN----------DY  110
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  111  WGQGTLVTVSS  121
+
+
+>pdb|3ZTJ|G Chain G, Structure Of Influenza A Neutralizing Antibody Selected 
+From Cultures Of Single Human Plasma Cells In Complex With 
+Human H3 Influenza Haemagglutinin.
+ pdb|3ZTJ|I Chain I, Structure Of Influenza A Neutralizing Antibody Selected 
+From Cultures Of Single Human Plasma Cells In Complex With 
+Human H3 Influenza Haemagglutinin.
+ pdb|3ZTJ|K Chain K, Structure Of Influenza A Neutralizing Antibody Selected 
+From Cultures Of Single Human Plasma Cells In Complex With 
+Human H3 Influenza Haemagglutinin.
+ pdb|3ZTN|H Chain H, Structure Of Influenza A Neutralizing Antibody Selected 
+From Cultures Of Single Human Plasma Cells In Complex With 
+Human H1 Influenza Haemagglutinin.
+Length=226
+
+ Score = 204 bits (518),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 106/132 (80%), Positives = 112/132 (85%), Gaps = 4/132 (3%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS   M WVRQAPGKGLEWVAVISYD + KYY
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSTYAMHWVRQAPGKGLEWVAVISYDANYKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD-QFVAVVVPAAIHLGYYYGMD  119
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD Q  +++    +  GY+   D
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDSQLRSLLYFEWLSQGYF---D  117
+
+Query  120  VWGQGTTVTVSS  131
+             WGQGT VTVSS
+Sbjct  118  YWGQGTLVTVSS  129
+
+
+>pdb|1DEE|B Chain B, Crystal Structure At 2.7a Resolution Of A Complex Between 
+A Staphylococcus Aureus Domain And A Fab Fragment Of A 
+Human Igm Antibody
+ pdb|1DEE|D Chain D, Crystal Structure At 2.7a Resolution Of A Complex Between 
+A Staphylococcus Aureus Domain And A Fab Fragment Of A 
+Human Igm Antibody
+ pdb|1DEE|F Chain F, Crystal Structure At 2.7a Resolution Of A Complex Between 
+A Staphylococcus Aureus Domain And A Fab Fragment Of A 
+Human Igm Antibody
+Length=223
+
+ Score = 203 bits (517),  Expect = 5e-66, Method: Compositional matrix adjust.
+ Identities = 104/131 (79%), Positives = 107/131 (82%), Gaps = 10/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPG+SLRLSCAASGFTFS   M WVRQAPGKGLEWVA+ISYD SNKYY
+Sbjct  1    QVQLVESGGGVVQPGKSLRLSCAASGFTFSGYGMHWVRQAPGKGLEWVALISYDESNKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAK +F     P           D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKVKFYDPTAPN----------DY  110
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  111  WGQGTLVTVSS  121
+
+
+>pdb|1NL0|H Chain H, Crystal Structure Of Human Factor Ix Gla Domain In Complex 
+Of An Inhibitory Antibody, 10c12
+ pdb|3D69|H Chain H, Crystal Structure Of The Fab Fragment Of An Anti-factor 
+Ix Antibody 10c12
+ pdb|3D69|B Chain B, Crystal Structure Of The Fab Fragment Of An Anti-factor 
+Ix Antibody 10c12
+Length=224
+
+ Score = 201 bits (512),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 102/130 (78%), Positives = 106/130 (82%), Gaps = 11/130 (8%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            VQLVESGGGVVQPGRSLRLSCAASGFTFS   M WVRQAPGKGLEWVA+ISYDGS KYYA
+Sbjct  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSTYAMHWVRQAPGKGLEWVAIISYDGSKKYYA  61
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVW  121
+            DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+    A  V           +D W
+Sbjct  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARASIAAARV-----------LDYW  110
+
+Query  122  GQGTTVTVSS  131
+            G+GT VTVSS
+Sbjct  111  GRGTMVTVSS  120
+
+
+>pdb|3KDM|H Chain H, Crystal Structure Of Human Anti-Steroid Fab 5f2 In Complex 
+With Testosterone
+ pdb|3KDM|B Chain B, Crystal Structure Of Human Anti-Steroid Fab 5f2 In Complex 
+With Testosterone
+Length=225
+
+ Score = 199 bits (507),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 102/130 (78%), Positives = 108/130 (83%), Gaps = 9/130 (7%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            VQLVESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YYA
+Sbjct  2    VQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYYA  61
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVW  121
+            DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+D  +           YYYGMDVW
+Sbjct  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDPGL---------WDYYYGMDVW  112
+
+Query  122  GQGTTVTVSS  131
+            GQGT VTVSS
+Sbjct  113  GQGTLVTVSS  122
+
+
+>pdb|1AQK|H Chain H, Three-Dimensional Structure Of A Human Fab With High 
+Affinity For Tetanus Toxoid
+Length=226
+
+ Score = 199 bits (507),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 99/130 (76%), Positives = 107/130 (82%), Gaps = 8/130 (6%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            VQLVESGGGVVQPGRSLRLSCAASGFTF+N  + WVRQAPGKGLEWVA ISYDGS  YYA
+Sbjct  2    VQLVESGGGVVQPGRSLRLSCAASGFTFNNYAIHWVRQAPGKGLEWVAFISYDGSKNYYA  61
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVW  121
+            DSVKGRFTISRDNSKNTL+LQMNSLR EDTA+YYCA+  F  +V+        Y   D+W
+Sbjct  62   DSVKGRFTISRDNSKNTLFLQMNSLRPEDTAIYYCARVLFQQLVL--------YAPFDIW  113
+
+Query  122  GQGTTVTVSS  131
+            GQGT VTVSS
+Sbjct  114  GQGTMVTVSS  123
+
+
+>pdb|1T2J|A Chain A, Crystal Structure Of A Human Vh Domain
+Length=116
+
+ Score = 196 bits (497),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 100/131 (76%), Positives = 107/131 (82%), Gaps = 15/131 (11%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQL ESGGG+VQPG SLRLSCAASGFTFSN+ MSWVRQAPGKGLEWV+ IS  G N Y 
+Sbjct  1    QVQLQESGGGLVQPGGSLRLSCAASGFTFSNSAMSWVRQAPGKGLEWVSSISGSGGNTYS  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDN+KN+LYLQMNSLRAEDTAVYYCA+D               +YGMDV
+Sbjct  61   ADSVKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARD---------------WYGMDV  105
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  106  WGQGTTVTVSS  116
+
+
+>pdb|3IDX|H Chain H, Crystal Structure Of Hiv-Gp120 Core In Complex With 
+Cd4-Binding Site Antibody B13, Space Group C222
+ pdb|3IDY|H Chain H, Crystal Structure Of Hiv-Gp120 Core In Complex With 
+Cd4-Binding Site Antibody B13, Space Group C2221
+ pdb|3IDY|B Chain B, Crystal Structure Of Hiv-Gp120 Core In Complex With 
+Cd4-Binding Site Antibody B13, Space Group C2221
+Length=231
+
+ Score = 199 bits (506),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 102/136 (75%), Positives = 108/136 (79%), Gaps = 13/136 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTF N  M WVRQAPGKGLEWVA+I YDG NKYY
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFRNYAMHWVRQAPGKGLEWVALIKYDGRNKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYY-----  115
+            ADSVKGRF+ISRDNSKNTLYL+MNSLRAEDTAVYYCA+D          +   +Y     
+Sbjct  61   ADSVKGRFSISRDNSKNTLYLEMNSLRAEDTAVYYCARD--------IGLKGEHYDILTA  112
+
+Query  116  YGMDVWGQGTTVTVSS  131
+            YG D WGQG  VTVSS
+Sbjct  113  YGPDYWGQGALVTVSS  128
+
+
+>pdb|2GHW|B Chain B, Crystal Structure Of Sars Spike Protein Receptor Binding 
+Domain In Complex With A Neutralizing Antibody, 80r
+ pdb|2GHW|D Chain D, Crystal Structure Of Sars Spike Protein Receptor Binding 
+Domain In Complex With A Neutralizing Antibody, 80r
+Length=247
+
+ Score = 199 bits (506),  Expect = 4e-64, Method: Compositional matrix adjust.
+ Identities = 101/129 (78%), Positives = 108/129 (84%), Gaps = 14/129 (11%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLV+SGGGVVQPG+SLRLSCAASGF FS+  M WVRQAPGKGLEWVAVISYDGSNKYY
+Sbjct  3    EVQLVQSGGGVVQPGKSLRLSCAASGFAFSSYAMHWVRQAPGKGLEWVAVISYDGSNKYY  62
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+D+             YY  +D 
+Sbjct  63   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDR------------SYY--LDY  108
+
+Query  121  WGQGTTVTV  129
+            WGQGT VTV
+Sbjct  109  WGQGTLVTV  117
+
+
+ Score = 41.6 bits (96),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 30/87 (34%), Positives = 42/87 (48%), Gaps = 9/87 (10%)
+
+Query  12   VQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYADSVKGRFTIS  71
+            + PG    LSC AS    SN  ++W +Q PG+       + YD S +  A  +  RF+ S
+Sbjct  147  LSPGERATLSCRASQSVRSN--LAWYQQKPGQAPR---PLIYDASTR--ATGIPDRFSGS  199
+
+Query  72   RDNSKNTLYLQMNSLRAEDTAVYYCAK  98
+               S     L ++ L  ED AVYYC +
+Sbjct  200  --GSGTDFTLTISRLEPEDFAVYYCQQ  224
+
+
+>pdb|4GXU|M Chain M, Crystal Structure Of Antibody 1f1 Bound To The 1918 
+Influenza Hemagglutinin
+ pdb|4GXU|O Chain O, Crystal Structure Of Antibody 1f1 Bound To The 1918 
+Influenza Hemagglutinin
+ pdb|4GXU|Q Chain Q, Crystal Structure Of Antibody 1f1 Bound To The 1918 
+Influenza Hemagglutinin
+ pdb|4GXU|S Chain S, Crystal Structure Of Antibody 1f1 Bound To The 1918 
+Influenza Hemagglutinin
+ pdb|4GXU|U Chain U, Crystal Structure Of Antibody 1f1 Bound To The 1918 
+Influenza Hemagglutinin
+ pdb|4GXU|W Chain W, Crystal Structure Of Antibody 1f1 Bound To The 1918 
+Influenza Hemagglutinin
+ pdb|4GXV|H Chain H, Crystal Structure Of Anti-Influenza Virus Antibody 1f1
+ pdb|4GXV|I Chain I, Crystal Structure Of Anti-Influenza Virus Antibody 1f1
+Length=231
+
+ Score = 198 bits (503),  Expect = 6e-64, Method: Compositional matrix adjust.
+ Identities = 101/130 (78%), Positives = 111/130 (85%), Gaps = 5/130 (4%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            VQLV+SGGGVVQP RSLRLSCAASGFTFS+  M WVRQAPGKGLEWVAVISYDG NKYYA
+Sbjct  2    VQLVQSGGGVVQPRRSLRLSCAASGFTFSSYAMHWVRQAPGKGLEWVAVISYDGRNKYYA  61
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVW  121
+            DSVKGRFT+SRDNSKNTLYLQMNSLRAEDT+VYYCA++    +++    H+GY  G   W
+Sbjct  62   DSVKGRFTVSRDNSKNTLYLQMNSLRAEDTSVYYCARE----LLMDYYDHIGYSPG-PTW  116
+
+Query  122  GQGTTVTVSS  131
+            GQGT VTVSS
+Sbjct  117  GQGTLVTVSS  126
+
+
+>pdb|3GIZ|H Chain H, Crystal Structure Of The Fab Fragment Of Anti-Cd20 Antibody 
+Ofatumumab
+Length=222
+
+ Score = 195 bits (495),  Expect = 7e-63, Method: Compositional matrix adjust.
+ Identities = 99/132 (75%), Positives = 110/132 (83%), Gaps = 11/132 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPGRSLRLSCAASGFTF++  M WVRQAPGKGLEWV+ IS++  +  Y
+Sbjct  1    EVQLVESGGGLVQPGRSLRLSCAASGFTFNDYAMHWVRQAPGKGLEWVSTISWNSGSIGY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLG-YYYGMD  119
+            ADSVKGRFTISRDN+K +LYLQMNSLRAEDTA+YYCAKD          I  G YYYGMD
+Sbjct  61   ADSVKGRFTISRDNAKKSLYLQMNSLRAEDTALYYCAKD----------IQYGNYYYGMD  110
+
+Query  120  VWGQGTTVTVSS  131
+            VWGQGTTVTVSS
+Sbjct  111  VWGQGTTVTVSS  122
+
+
+>pdb|4Y5X|A Chain A, Diabody 305 Complex With Epor
+ pdb|4Y5X|D Chain D, Diabody 305 Complex With Epor
+ pdb|4Y5X|G Chain G, Diabody 305 Complex With Epor
+ pdb|4Y5X|J Chain J, Diabody 305 Complex With Epor
+Length=136
+
+ Score = 191 bits (486),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 100/131 (76%), Positives = 110/131 (84%), Gaps = 7/131 (5%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YY
+Sbjct  8    EVQLLESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYY  67
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC KD+ VAV    +    YY+  D 
+Sbjct  68   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCVKDR-VAVAGKGS----YYF--DS  120
+
+Query  121  WGQGTTVTVSS  131
+            WG+GTTVTVSS
+Sbjct  121  WGRGTTVTVSS  131
+
+
+>pdb|4HF5|H Chain H, Crystal Structure Of Fab 8f8 In Complex A H2n2 Influenza 
+Virus Hemagglutinin
+Length=233
+
+ Score = 194 bits (494),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 106/131 (81%), Gaps = 1/131 (1%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGGVVQPGRSLRLSCAASGF FS+  M WVRQ PGKGLEWVAVI YDGS  Y+
+Sbjct  1    EVQLVESGGGVVQPGRSLRLSCAASGFMFSSYVMHWVRQPPGKGLEWVAVIWYDGSKTYF  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADS++GR T+SRDNSKN LYLQMN LRAEDTAVYYCA+ Q      P   +   +YGMDV
+Sbjct  61   ADSMRGRLTVSRDNSKNALYLQMNRLRAEDTAVYYCARQQDSGYSGPEVSYYS-HYGMDV  119
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  120  WGQGTMVTVSS  130
+
+
+>pdb|4PY7|I Chain I, Crystal Structure Of Fab 3.1
+ pdb|4PY7|A Chain A, Crystal Structure Of Fab 3.1
+ pdb|4PY8|I Chain I, Crystal Structure Of Fab 3.1 In Complex With The 1918 
+Influenza Virus Hemagglutinin
+Length=219
+
+ Score = 193 bits (491),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 101/134 (75%), Positives = 107/134 (80%), Gaps = 15/134 (11%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLV+SGGGVVQPGRSLRLSCAAS FTF      WVRQAPGKGLEWVA+ISYDGSNKYY
+Sbjct  1    QVQLVQSGGGVVQPGRSLRLSCAASEFTFRMYATHWVRQAPGKGLEWVALISYDGSNKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYY---G  117
+            ADSVKGRFTISRDNS NT+YLQMN+LR EDTAVYYCA+D            LG Y+    
+Sbjct  61   ADSVKGRFTISRDNSMNTVYLQMNTLRPEDTAVYYCARD------------LGGYFIRGI  108
+
+Query  118  MDVWGQGTTVTVSS  131
+            MDVWGQGT VTVSS
+Sbjct  109  MDVWGQGTLVTVSS  122
+
+
+>pdb|4G5Z|H Chain H, Crystal Structure Of The Therapeutical Antibody Fragment 
+Of Canakinumab In Its Unbound State
+ pdb|4G6J|H Chain H, Crystal Structure Of Human Il-1beta In Complex With 
+The Therapeutic Antibody Binding Fragment Of Canakinumab
+Length=218
+
+ Score = 193 bits (490),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 100/131 (76%), Positives = 106/131 (81%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFS   M+WVRQAP KGLEWVA+I YDG N+YY
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSVYGMNWVRQAPAKGLEWVAIIWYDGDNQYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMN LRAEDTAVYYCA+D          +  G +   D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNGLRAEDTAVYYCARD----------LRTGPF---DY  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  108  WGQGTLVTVSS  118
+
+
+>pdb|4QCI|B Chain B, Pdgf-b Blocking Antibody Bound To Pdgf-bb
+ pdb|4QCI|H Chain H, Pdgf-b Blocking Antibody Bound To Pdgf-bb
+Length=223
+
+ Score = 193 bits (490),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 101/133 (76%), Positives = 109/133 (82%), Gaps = 15/133 (11%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS DGS KYY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSYISDDGSLKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYG--M  118
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+               Y+YG  +
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARHP-------------YWYGGQL  107
+
+Query  119  DVWGQGTTVTVSS  131
+            D+WGQGT VTVSS
+Sbjct  108  DLWGQGTLVTVSS  120
+
+
+>pdb|4HH9|B Chain B, Anti-human Cytomegalovirus (hcmv) Fab Ke5
+ pdb|4HH9|D Chain D, Anti-human Cytomegalovirus (hcmv) Fab Ke5
+ pdb|4HHA|B Chain B, Anti-human Cytomegalovirus (hcmv) Fab Ke5 With Epitope 
+Peptide Ad-2s1
+Length=236
+
+ Score = 193 bits (491),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 108/131 (82%), Gaps = 6/131 (5%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGGVVQPGRSLRLSCAASGFTFSN  M WVRQAPGK LEWVAVISYDG +++Y
+Sbjct  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNHGMHWVRQAPGKRLEWVAVISYDGRHEHY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            AD VKGRFTISRDNSKNTLYLQMNSLRAED A+Y+CA++        +  + G+   +D 
+Sbjct  61   ADLVKGRFTISRDNSKNTLYLQMNSLRAEDRALYFCAREGL------SRDNSGFTGLIDY  114
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  115  WGQGTMVTVSS  125
+
+
+>pdb|1W72|H Chain H, Crystal Structure Of Hla-A1:mage-A1 In Complex With 
+Fab- Hyb3
+ pdb|1W72|I Chain I, Crystal Structure Of Hla-A1:mage-A1 In Complex With 
+Fab- Hyb3
+Length=223
+
+ Score = 192 bits (489),  Expect = 6e-62, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 109/131 (83%), Gaps = 9/131 (7%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPGRSLRLSCAASGFTF +  M WVRQAPGKGLEWV+ IS++  +  Y
+Sbjct  1    EVQLVESGGGLVQPGRSLRLSCAASGFTFDDYAMHWVRQAPGKGLEWVSGISWNSGSIGY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDN+KN+LYLQMNSLRAEDTAVYYCA+ +          H  YYYGMD+
+Sbjct  61   ADSVKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARGR--------GFHY-YYYGMDI  111
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  112  WGQGTTVTVSS  122
+
+
+>pdb|3GJE|H Chain H, Rational Development Of High-Affinity T-Cell Receptor-Like 
+Antibodies
+ pdb|3GJE|B Chain B, Rational Development Of High-Affinity T-Cell Receptor-Like 
+Antibodies
+ pdb|3GJF|H Chain H, Rational Development Of High-Affinity T-Cell Receptor-Like 
+Antibodies
+ pdb|3GJF|M Chain M, Rational Development Of High-Affinity T-Cell Receptor-Like 
+Antibodies
+Length=220
+
+ Score = 192 bits (488),  Expect = 8e-62, Method: Compositional matrix adjust.
+ Identities = 99/131 (76%), Positives = 107/131 (82%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS   MSWVRQAPGKGLEWV+ I   G +  Y
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSTYQMSWVRQAPGKGLEWVSGIVSSGGSTAY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA +     ++P       YYGMDV
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAGE-----LLP-------YYGMDV  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  109  WGQGTTVTVSS  119
+
+
+>pdb|4XI5|D Chain D, Ghgl Of Varicella-zoster Virus In Complex With Human 
+Neutralizing Antibodies
+Length=283
+
+ Score = 193 bits (490),  Expect = 3e-61, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 108/131 (82%), Gaps = 10/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGGVVQPGRSLRLSC ASGFTF+   M WVRQAPGKG+EWVAV+S  G N+YY
+Sbjct  20   EVQLVESGGGVVQPGRSLRLSCGASGFTFNTYAMHWVRQAPGKGVEWVAVVSDGGGNRYY  79
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            A SVKGRFTISRDNSKNTL+LQ+N+LR EDTAVYYCA+ +          H  YYYGMDV
+Sbjct  80   AASVKGRFTISRDNSKNTLFLQLNTLRPEDTAVYYCARSR--------GNH--YYYGMDV  129
+
+Query  121  WGQGTTVTVSS  131
+            WG+GTTVTVSS
+Sbjct  130  WGRGTTVTVSS  140
+
+
+>pdb|2V7N|B Chain B, Unusual Twinning In Crystals Of The Cits Binding Antibody 
+Fab Fragment F3p4
+ pdb|2V7N|D Chain D, Unusual Twinning In Crystals Of The Cits Binding Antibody 
+Fab Fragment F3p4
+ pdb|2V7N|F Chain F, Unusual Twinning In Crystals Of The Cits Binding Antibody 
+Fab Fragment F3p4
+ pdb|2V7N|H Chain H, Unusual Twinning In Crystals Of The Cits Binding Antibody 
+Fab Fragment F3p4
+Length=229
+
+ Score = 190 bits (483),  Expect = 6e-61, Method: Compositional matrix adjust.
+ Identities = 99/131 (76%), Positives = 104/131 (79%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGG+VQPG SLRLSCAASGFTF N+ M WVRQAPGKGLEWV+ I Y GSN YY
+Sbjct  1    QVQLVESGGGLVQPGGSLRLSCAASGFTFRNSAMHWVRQAPGKGLEWVSSIWYSGSNTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+              G +   DV
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAR------------FAGGWGAYDV  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  109  WGQGTLVTVSS  119
+
+
+>pdb|3GHE|H Chain H, Crystal Structure Of Anti-Hiv-1 Fab 537-10d In Complex 
+With V3 Peptide Mn
+Length=233
+
+ Score = 190 bits (483),  Expect = 7e-61, Method: Compositional matrix adjust.
+ Identities = 96/131 (73%), Positives = 110/131 (84%), Gaps = 2/131 (2%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLV+SGGG+VQPG SLRLSC ASGFTF+N WMSWVRQAPGKGLEWVA I  DG++KYY
+Sbjct  1    QVQLVQSGGGLVQPGGSLRLSCVASGFTFNNYWMSWVRQAPGKGLEWVANIKQDGNDKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDN+KN+L+LQMNSLRAEDTAVY+CA++   +       +   YY MDV
+Sbjct  61   VDSVKGRFTISRDNAKNSLFLQMNSLRAEDTAVYFCARE--FSSYTDHLEYYYDYYYMDV  118
+
+Query  121  WGQGTTVTVSS  131
+            WG+GTTVTVSS
+Sbjct  119  WGKGTTVTVSS  129
+
+
+>pdb|3QOS|H Chain H, Crystal Structure Of Human Germline Antibody 3-23B3
+ pdb|3QOS|B Chain B, Crystal Structure Of Human Germline Antibody 3-23B3
+Length=228
+
+ Score = 189 bits (479),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 105/131 (80%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YY
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAK            + G Y  +D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAK------------YDGIYGELDF  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  109  WGQGTLVTVSS  119
+
+
+>pdb|4OCR|H Chain H, Crystal Structure Of Human Fab Cap256-vrc26.01, A Potent 
+V1v2-directed Hiv-1 Neutralizing Antibody
+Length=256
+
+ Score = 189 bits (479),  Expect = 6e-60, Method: Compositional matrix adjust.
+ Identities = 96/143 (67%), Positives = 105/143 (73%), Gaps = 13/143 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQ+VESGGGVVQPGRSLRLSC ASGFTFSN  M WVRQAPGKGLEWVA IS DGSNK Y
+Sbjct  1    EVQVVESGGGVVQPGRSLRLSCTASGFTFSNFAMGWVRQAPGKGLEWVAFISSDGSNKNY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD-------------QFVAVVVP  107
+             DSVKGRFTISRDNSKNT++LQMNSLR EDTA+YYCAKD               +++  P
+Sbjct  61   GDSVKGRFTISRDNSKNTVFLQMNSLRVEDTALYYCAKDVGDYKSDEWGTEXXDISISYP  120
+
+Query  108  AAIHLGYYYGMDVWGQGTTVTVS  130
+                       D+WGQGT VTVS
+Sbjct  121  IQDPRAMVGAFDLWGQGTMVTVS  143
+
+
+>pdb|4HIE|B Chain B, Anti-streptococcus Pneumoniae 23f Fab 023.102
+ pdb|4HIH|B Chain B, Anti-streptococcus Pneumoniae 23f Fab 023.102 With Bound 
+Rhamnose.
+ pdb|4HIH|D Chain D, Anti-streptococcus Pneumoniae 23f Fab 023.102 With Bound 
+Rhamnose.
+ pdb|4HII|B Chain B, Anti-streptococcus Pneumoniae 23f Fab 023.102 With Bound 
+Rhamnose- Galactose
+ pdb|4HII|D Chain D, Anti-streptococcus Pneumoniae 23f Fab 023.102 With Bound 
+Rhamnose- Galactose
+ pdb|4HIJ|B Chain B, Anti-streptococcus Pneumoniae 23f Fab 023.102 With Bound 
+L-rhamnose- (1-2)-alpha-d-galactose-(3-o)-phosphate-2-glycerol
+ pdb|4HIJ|D Chain D, Anti-streptococcus Pneumoniae 23f Fab 023.102 With Bound 
+L-rhamnose- (1-2)-alpha-d-galactose-(3-o)-phosphate-2-glycerol
+Length=231
+
+ Score = 187 bits (476),  Expect = 9e-60, Method: Compositional matrix adjust.
+ Identities = 96/130 (74%), Positives = 101/130 (78%), Gaps = 11/130 (8%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            + LVESGGGVVQPGRSLRLSCAASGFTFS   M WVRQAPGKGLEWVAV+S DG   YYA
+Sbjct  2    INLVESGGGVVQPGRSLRLSCAASGFTFSRYGMHWVRQAPGKGLEWVAVVSSDGRTTYYA  61
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVW  121
+            DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAV+YCAK+                +  D W
+Sbjct  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVFYCAKEGG-----------DNKFSFDYW  110
+
+Query  122  GQGTTVTVSS  131
+            GQGT VTVSS
+Sbjct  111  GQGTLVTVSS  120
+
+
+>pdb|3G6D|H Chain H, Crystal Structure Of The Complex Between Cnto607 Fab 
+And Il-13
+ pdb|3G6A|H Chain H, Crystal Structure Of Anti-Il-13 Antibody Cnto607
+ pdb|3G6A|B Chain B, Crystal Structure Of Anti-Il-13 Antibody Cnto607
+Length=229
+
+ Score = 187 bits (475),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 98/134 (73%), Positives = 109/134 (81%), Gaps = 15/134 (11%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGG+VQPG SLRLSCAASGFTF++ W++WVRQAPGKGLEWV+ I+YD SN  Y
+Sbjct  1    QVQLVESGGGLVQPGGSLRLSCAASGFTFNSYWINWVRQAPGKGLEWVSGIAYDSSNTLY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLG-YYYGM-  118
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+             LG +++ M 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARG------------LGAFHWDMQ  108
+
+Query  119  -DVWGQGTTVTVSS  131
+             D WGQGT VTVSS
+Sbjct  109  PDYWGQGTLVTVSS  122
+
+
+>pdb|4DGV|H Chain H, Structure Of The Hepatitis C Virus Envelope Glycoprotein 
+E2 Antigenic Region 412-423 Bound To The Broadly Neutralizing 
+Antibody Hcv1, P2(1) Form
+ pdb|4DGY|H Chain H, Structure Of The Hepatitis C Virus Envelope Glycoprotein 
+E2 Antigenic Region 412-423 Bound To The Broadly Neutralizing 
+Antibody Hcv1, C2 Form
+Length=226
+
+ Score = 187 bits (475),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 108/131 (82%), Gaps = 8/131 (6%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGGVVQPGRSLRLSC ASGFTF+N  M WVRQ PGKGLEW+AVI +D +NKYY
+Sbjct  1    EVQLLESGGGVVQPGRSLRLSCTASGFTFNNYGMHWVRQTPGKGLEWLAVIWFDENNKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSV+GRFTISRDNSKNTL+LQMNSL+ EDTA+YYCA+D  +++V  A I+       D 
+Sbjct  61   ADSVRGRFTISRDNSKNTLFLQMNSLKTEDTAMYYCARD--ISLVRDAFIYF------DF  112
+
+Query  121  WGQGTTVTVSS  131
+            WG GT VTVSS
+Sbjct  113  WGLGTLVTVSS  123
+
+
+>pdb|4Y5V|A Chain A, Diabody 305 Complex With Epor
+ pdb|4Y5V|D Chain D, Diabody 305 Complex With Epor
+ pdb|4Y5V|G Chain G, Diabody 305 Complex With Epor
+Length=130
+
+ Score = 184 bits (466),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 96/131 (73%), Positives = 104/131 (79%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+ WMSWVRQAPGKGLEWVA I  DGS KYY
+Sbjct  8    EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYWMSWVRQAPGKGLEWVANIKPDGSEKYY  67
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDN+KN++YLQMNSLRAEDTAVYYCA+           +  G  Y    
+Sbjct  68   VDSVKGRFTISRDNAKNSVYLQMNSLRAEDTAVYYCAR-----------VSRGGSY--SD  114
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  115  WGQGTLVTVSS  125
+
+
+>pdb|4U6V|H Chain H, Mechanisms Of Neutralization Of A Human Anti-alpha Toxin 
+Antibody
+ pdb|4U6V|K Chain K, Mechanisms Of Neutralization Of A Human Anti-alpha Toxin 
+Antibody
+Length=225
+
+ Score = 186 bits (473),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 95/131 (73%), Positives = 107/131 (82%), Gaps = 9/131 (7%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+  M WVRQA GKGLEWV+ I   G + YY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSSHDMHWVRQATGKGLEWVSGIGTAG-DTYY  59
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISR+N+KN+LYLQMNSLRA DTAVYYCA+D++           G+YYGMDV
+Sbjct  60   PDSVKGRFTISRENAKNSLYLQMNSLRAGDTAVYYCARDRYSPT--------GHYYGMDV  111
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  112  WGQGTTVTVSS  122
+
+
+>pdb|4P59|H Chain H, Her3 Extracellular Domain In Complex With Fab Fragment 
+Of Mor09825
+Length=238
+
+ Score = 187 bits (474),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 97/133 (73%), Positives = 105/133 (79%), Gaps = 18/133 (14%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ I+  G + YY
+Sbjct  1    QVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAINSQGKSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAK--DQFVAVVVPAAIHLGYYYGM  118
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+  D+                G 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARWGDE----------------GF  104
+
+Query  119  DVWGQGTTVTVSS  131
+            D+WGQGT VTVSS
+Sbjct  105  DIWGQGTLVTVSS  117
+
+
+>pdb|1DQL|H Chain H, Crystal Structure Of An Unliganded (Native) Fv From 
+A Human Igm Anti-Peptide Antibody
+Length=123
+
+ Score = 183 bits (464),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 97/130 (75%), Positives = 104/130 (80%), Gaps = 8/130 (6%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            VQLVESGGG+VQPG SLRLSCAASGFTFS+  M WVRQAPGKGLEWVAVIS DG NKYY 
+Sbjct  2    VQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMHWVRQAPGKGLEWVAVISSDGGNKYYT  61
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVW  121
+            DSVKGRFTISR++SKNTLYLQMNSLR EDTAV+YCA+        P +   G   G D W
+Sbjct  62   DSVKGRFTISRNDSKNTLYLQMNSLRTEDTAVFYCARGN-----PPYSSGWG---GGDYW  113
+
+Query  122  GQGTTVTVSS  131
+            GQGT VTVSS
+Sbjct  114  GQGTMVTVSS  123
+
+
+>pdb|3ZHK|A Chain A, The Crystal Structure Of Single Domain Antibody 2x1 
+Scaffold
+ pdb|3ZHK|B Chain B, The Crystal Structure Of Single Domain Antibody 2x1 
+Scaffold
+Length=127
+
+ Score = 182 bits (462),  Expect = 5e-59, Method: Compositional matrix adjust.
+ Identities = 95/131 (73%), Positives = 101/131 (77%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKN LYLQMNSLRAEDTAVYYCA+            H       D 
+Sbjct  61   ADSVKGRFTISRDNSKNLLYLQMNSLRAEDTAVYYCAR------------HAPSTEAPDY  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  109  WGQGTLVTVSS  119
+
+
+>pdb|3UX9|B Chain B, Structural Insights Into A Human Anti-Ifn Antibody Exerting 
+Therapeutic Potential For Systemic Lupus Erythematosus
+ pdb|3UX9|D Chain D, Structural Insights Into A Human Anti-Ifn Antibody Exerting 
+Therapeutic Potential For Systemic Lupus Erythematosus
+Length=256
+
+ Score = 186 bits (472),  Expect = 5e-59, Method: Compositional matrix adjust.
+ Identities = 98/131 (75%), Positives = 105/131 (80%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YY
+Sbjct  135  EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYY  194
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+           I  G +  MD 
+Sbjct  195  ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAR----------YIDFGDH--MDF  242
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  243  WGQGTLVTVSS  253
+
+
+ Score = 32.0 bits (71),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 26/83 (31%), Positives = 43/83 (52%), Gaps = 7/83 (8%)
+
+Query  14  PGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYADSVKGRFTISRD  73
+           PG+ + +SC+ S     + ++SW +Q PG   +   ++ YD  N      V  RF+ S+ 
+Sbjct  16  PGQRVTISCSGSSSNIGSNYVSWYQQLPGTAPK---LLIYD--NNQRPSGVPDRFSGSK-  69
+
+Query  74  NSKNTLYLQMNSLRAEDTAVYYC  96
+            S  +  L +  L++ED A YYC
+Sbjct  70  -SGTSASLAITGLQSEDEADYYC  91
+
+
+>pdb|3KR3|H Chain H, Crystal Structure Of Igf-Ii Antibody Complex
+Length=251
+
+ Score = 186 bits (472),  Expect = 5e-59, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 105/131 (80%), Gaps = 9/131 (7%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFSN  M WVRQAPGKGLEWV+VIS  G    Y
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSNYIMWWVRQAPGKGLEWVSVISSSGGMTRY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+D           ++G   G D+
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDN--------GDYVG-EKGFDI  111
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  112  WGQGTMVTVSS  122
+
+
+>pdb|4FZ8|H Chain H, Crystal Structure Of C11 Fab, An Adcc Mediating Anti-hiv-1 
+Antibody.
+Length=237
+
+ Score = 185 bits (470),  Expect = 6e-59, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 110/131 (84%), Gaps = 0/131 (0%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+V+PG SLRLSCAASGFTFS+  M+WVRQAPG+GLEWV+ IS   +  YY
+Sbjct  1    EVQLVESGGGLVKPGGSLRLSCAASGFTFSSYSMNWVRQAPGRGLEWVSSISNTSTYIYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSV+GRFT+SRDN+KN+LYLQMNSLRAEDTAVYYCA+       + + +   +YYGMDV
+Sbjct  61   ADSVEGRFTLSRDNAKNSLYLQMNSLRAEDTAVYYCARANQHFDWLLSLLGGYHYYGMDV  120
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  121  WGQGTTVTVSS  131
+
+
+>pdb|3HAE|H Chain H, Rational Development Of High-Affinity T-Cell Receptor-Like 
+Antibodies
+ pdb|3HAE|I Chain I, Rational Development Of High-Affinity T-Cell Receptor-Like 
+Antibodies
+ pdb|3HAE|O Chain O, Rational Development Of High-Affinity T-Cell Receptor-Like 
+Antibodies
+ pdb|3HAE|T Chain T, Rational Development Of High-Affinity T-Cell Receptor-Like 
+Antibodies
+Length=220
+
+ Score = 185 bits (469),  Expect = 7e-59, Method: Compositional matrix adjust.
+ Identities = 98/131 (75%), Positives = 105/131 (80%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS   M WVRQAPGKGLEWV+ I   G    Y
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSAYGMGWVRQAPGKGLEWVSSIGSSGGGTAY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA +     ++P       YYGMDV
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAGE-----LLP-------YYGMDV  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  109  WGQGTTVTVSS  119
+
+
+>pdb|3UPC|A Chain A, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|B Chain B, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|C Chain C, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|D Chain D, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|E Chain E, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|F Chain F, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|G Chain G, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|H Chain H, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|I Chain I, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+ pdb|3UPC|J Chain J, A General Strategy For The Generation Of Human Antibody 
+Variable Domains With Increased Aggregation Resistance
+Length=113
+
+ Score = 181 bits (459),  Expect = 9e-59, Method: Compositional matrix adjust.
+ Identities = 94/128 (73%), Positives = 99/128 (77%), Gaps = 15/128 (12%)
+
+Query  3    QLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYAD  62
+            QL+ESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YYAD
+Sbjct  1    QLLESGGGLVQPGGSLRLSCAASGFTFSDEDMSWVRQAPGKGLEWVSAISGSGGSTYYAD  60
+
+Query  63   SVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVWG  122
+            SVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAK                Y   D WG
+Sbjct  61   SVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKS---------------YGAFDYWG  105
+
+Query  123  QGTTVTVS  130
+            QGT VTVS
+Sbjct  106  QGTLVTVS  113
+
+
+>pdb|3SO3|C Chain C, Structures Of Fab-Protease Complexes Reveal A Highly 
+Specific Non- Canonical Mechanism Of Inhibition.
+Length=228
+
+ Score = 184 bits (468),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 96/133 (72%), Positives = 106/133 (80%), Gaps = 10/133 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLV+SGGG+V+PG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YY
+Sbjct  1    EVQLVQSGGGLVKPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAV--VVPAAIHLGYYYGM  118
+            ADSVKGRFTISRDNSKNTLYLQM+SLRAEDTAVYYC KD  +A    V  A         
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMSSLRAEDTAVYYCVKDLGIAARRFVSGA--------F  112
+
+Query  119  DVWGQGTTVTVSS  131
+            D+WGQGT VTVSS
+Sbjct  113  DIWGQGTMVTVSS  125
+
+
+>pdb|4LRI|P Chain P, Anti Cmv Fab Fragment
+ pdb|4LRI|C Chain C, Anti Cmv Fab Fragment
+Length=233
+
+ Score = 184 bits (468),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 90/131 (69%), Positives = 109/131 (83%), Gaps = 1/131 (1%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            + Q++ESGGG+V+PG SLRLSCAASGFTFS   + WVRQAPGKGLEWV+ I+ D + KYY
+Sbjct  1    EEQVLESGGGLVKPGGSLRLSCAASGFTFSPYSVFWVRQAPGKGLEWVSSINSDSTYKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDN++N+++LQMNSLRAEDTAVYYCA+D+        ++   YYYG+DV
+Sbjct  61   ADSVKGRFTISRDNAENSIFLQMNSLRAEDTAVYYCARDRSYYAFSSGSLS-DYYYGLDV  119
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  120  WGQGTLVTVSS  130
+
+
+>pdb|2VXS|H Chain H, Structure Of Il-17a In Complex With A Potent, Fully 
+Human Neutralising Antibody
+ pdb|2VXS|I Chain I, Structure Of Il-17a In Complex With A Potent, Fully 
+Human Neutralising Antibody
+ pdb|2VXS|J Chain J, Structure Of Il-17a In Complex With A Potent, Fully 
+Human Neutralising Antibody
+ pdb|2VXS|K Chain K, Structure Of Il-17a In Complex With A Potent, Fully 
+Human Neutralising Antibody
+Length=225
+
+ Score = 184 bits (467),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 95/131 (73%), Positives = 102/131 (78%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YY
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+D    V                
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDLIHGVT-------------RN  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  108  WGQGTLVTVSS  118
+
+
+>pdb|8FAB|B Chain B, Crystal Structure Of The Fab Fragment From The Human 
+Myeloma Immunoglobulin Igg Hil At 1.8 Angstroms Resolution
+ pdb|8FAB|D Chain D, Crystal Structure Of The Fab Fragment From The Human 
+Myeloma Immunoglobulin Igg Hil At 1.8 Angstroms Resolution
+Length=224
+
+ Score = 183 bits (465),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 92/130 (71%), Positives = 100/130 (77%), Gaps = 10/130 (8%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            V+LV++GGGVVQPGRSLRLSC ASGFTFSN  M WVRQAPGKGLEWVAVI Y+GS  YY 
+Sbjct  2    VKLVQAGGGVVQPGRSLRLSCIASGFTFSNYGMHWVRQAPGKGLEWVAVIWYNGSRTYYG  61
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVW  121
+            DSVKGRFTISRDNSK TLY+QMNSLR EDTAVYYCA+D  +             +  D W
+Sbjct  62   DSVKGRFTISRDNSKRTLYMQMNSLRTEDTAVYYCARDPDILTA----------FSFDYW  111
+
+Query  122  GQGTTVTVSS  131
+            GQG  VTVSS
+Sbjct  112  GQGVLVTVSS  121
+
+
+>pdb|4OQT|H Chain H, Lingo-1/li81 Fab Complex
+Length=235
+
+ Score = 183 bits (465),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 94/131 (72%), Positives = 101/131 (77%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS   M WVRQAPGKGLEWV+VI   G   +Y
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSAYEMKWVRQAPGKGLEWVSVIGPSGGFTFY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA +             G     D+
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCATE-------------GDNDAFDI  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  108  WGQGTTVTVSS  118
+
+
+>pdb|3TNN|H Chain H, Crystal Structure Of N5-I5 Fab, An Adcc Mediating And 
+Non-Neutralizing Cd4i Anti-Hiv- 1 Antibody.
+ pdb|3TNN|A Chain A, Crystal Structure Of N5-I5 Fab, An Adcc Mediating And 
+Non-Neutralizing Cd4i Anti-Hiv- 1 Antibody.
+ pdb|3TNN|C Chain C, Crystal Structure Of N5-I5 Fab, An Adcc Mediating And 
+Non-Neutralizing Cd4i Anti-Hiv- 1 Antibody.
+ pdb|3TNN|E Chain E, Crystal Structure Of N5-I5 Fab, An Adcc Mediating And 
+Non-Neutralizing Cd4i Anti-Hiv- 1 Antibody.
+ pdb|4H8W|H Chain H, Crystal Structure Of Non-neutralizing And Adcc-potent 
+Antibody N5-i5 In Complex With Hiv-1 Clade A/e Gp120 And Scd4.
+Length=226
+
+ Score = 182 bits (463),  Expect = 5e-58, Method: Compositional matrix adjust.
+ Identities = 96/131 (73%), Positives = 103/131 (79%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS   MSWVRQAPGKGLEWV+ I+  G N + 
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSTYAMSWVRQAPGKGLEWVSSINNSGRNTFS  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTL+L MNSLRAEDTAVYYCAKD          + LG   G D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLFLVMNSLRAEDTAVYYCAKD----------LRLG--GGSDY  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  109  WGQGTLVTVSS  119
+
+
+>pdb|4KVN|H Chain H, Crystal Structure Of Fab 39.29 In Complex With Influenza 
+Hemagglutinin A/perth/16/2009 (h3n2)
+Length=227
+
+ Score = 182 bits (463),  Expect = 6e-58, Method: Compositional matrix adjust.
+ Identities = 94/130 (72%), Positives = 103/130 (79%), Gaps = 6/130 (5%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            VQLVESGGGVVQPG+S RLSCAASG TFS+  + WVRQAPGKGLEWV +ISYDG+N+YYA
+Sbjct  1    VQLVESGGGVVQPGKSPRLSCAASGPTFSSYAVHWVRQAPGKGLEWVTLISYDGANQYYA  60
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVW  121
+            DSVKGRFTISRDNSKNT+YLQMNSLR EDTAVYYCA    V  + P   +       D W
+Sbjct  61   DSVKGRFTISRDNSKNTVYLQMNSLRPEDTAVYYCAVPGPVFGIFPPWSYF------DNW  114
+
+Query  122  GQGTTVTVSS  131
+            GQG  VTVSS
+Sbjct  115  GQGILVTVSS  124
+
+
+>pdb|3NH7|H Chain H, Crystal Structure Of The Neutralizing Fab Fragment Abd1556 
+Bound To The Bmp Type I Receptor Ia
+ pdb|3NH7|I Chain I, Crystal Structure Of The Neutralizing Fab Fragment Abd1556 
+Bound To The Bmp Type I Receptor Ia
+ pdb|3NH7|J Chain J, Crystal Structure Of The Neutralizing Fab Fragment Abd1556 
+Bound To The Bmp Type I Receptor Ia
+ pdb|3NH7|K Chain K, Crystal Structure Of The Neutralizing Fab Fragment Abd1556 
+Bound To The Bmp Type I Receptor Ia
+Length=234
+
+ Score = 182 bits (463),  Expect = 7e-58, Method: Compositional matrix adjust.
+ Identities = 96/131 (73%), Positives = 106/131 (81%), Gaps = 11/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGGG+VQPG SLRLSCAASGFTFSN  ++WVRQAPGKGLEWV+  S  GS   Y
+Sbjct  1    QVQLVESGGGLVQPGGSLRLSCAASGFTFSNYTLNWVRQAPGKGLEWVSYTSSSGSLTGY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA++++         H+  Y+  D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARERW---------HVRGYF--DH  109
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  110  WGQGTLVTVSS  120
+
+
+>pdb|2UZI|H Chain H, Crystal Structure Of Hras(G12v) - Anti-Ras Fv Complex
+Length=114
+
+ Score = 179 bits (453),  Expect = 7e-58, Method: Compositional matrix adjust.
+ Identities = 92/130 (71%), Positives = 99/130 (76%), Gaps = 16/130 (12%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS   M+WVRQAPGKGLEWV+ IS      YY
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSTFSMNWVRQAPGKGLEWVSYISRTSKTIYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+ +F                 D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARGRF----------------FDY  104
+
+Query  121  WGQGTTVTVS  130
+            WGQGT VTVS
+Sbjct  105  WGQGTLVTVS  114
+
+
+>pdb|3PIQ|H Chain H, Crystal Structure Of Human 2909 Fab, A Quaternary Structure-Specific 
+Antibody Against Hiv-1
+ pdb|3PIQ|A Chain A, Crystal Structure Of Human 2909 Fab, A Quaternary Structure-Specific 
+Antibody Against Hiv-1
+ pdb|3PIQ|C Chain C, Crystal Structure Of Human 2909 Fab, A Quaternary Structure-Specific 
+Antibody Against Hiv-1
+ pdb|3PIQ|E Chain E, Crystal Structure Of Human 2909 Fab, A Quaternary Structure-Specific 
+Antibody Against Hiv-1
+ pdb|3PIQ|G Chain G, Crystal Structure Of Human 2909 Fab, A Quaternary Structure-Specific 
+Antibody Against Hiv-1
+ pdb|3PIQ|J Chain J, Crystal Structure Of Human 2909 Fab, A Quaternary Structure-Specific 
+Antibody Against Hiv-1
+Length=231
+
+ Score = 182 bits (462),  Expect = 9e-58, Method: Compositional matrix adjust.
+ Identities = 92/133 (69%), Positives = 109/133 (82%), Gaps = 5/133 (4%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGG VVQPG SLRLSC ASGF+F ++ M WVRQAPGKGL+WV++IS++G   YY
+Sbjct  1    EVQLVESGGNVVQPGGSLRLSCTASGFSFDDSTMHWVRQAPGKGLQWVSLISWNGGRTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLG--YYYGM  118
+            ADSVKGRFTISRDNSKN+LYLQMNSL+ EDTA Y+CAKD+  +       +LG  Y+Y M
+Sbjct  61   ADSVKGRFTISRDNSKNSLYLQMNSLKTEDTAFYFCAKDKGDSDY---DYNLGYSYFYYM  117
+
+Query  119  DVWGQGTTVTVSS  131
+            D WG+GTTVTVSS
+Sbjct  118  DGWGKGTTVTVSS  130
+
+
+>pdb|2GCY|B Chain B, Humanized Antibody C25 Fab Fragment
+Length=218
+
+ Score = 182 bits (461),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 95/131 (73%), Positives = 102/131 (78%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQL ESGGG+VQPG SLRLSCAASGFTFS+ +M WVRQAPGKGLEWVA IS  GS  YY
+Sbjct  1    QVQLQESGGGLVQPGGSLRLSCAASGFTFSDYYMYWVRQAPGKGLEWVATISDGGSYTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDNSKNTLYLQMNSLRAEDTA+YYC++ +             Y   MD 
+Sbjct  61   PDSVKGRFTISRDNSKNTLYLQMNSLRAEDTAMYYCSRYR-------------YDDAMDY  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  108  WGQGTLVTVSS  118
+
+
+>pdb|4UTA|H Chain H, Crystal Structure Of Dengue 2 Virus Envelope Glycoprotein 
+In Complex With The Fab Fragment Of The Broadly Neutralizing 
+Human Antibody Ede1 C8
+ pdb|4UTA|I Chain I, Crystal Structure Of Dengue 2 Virus Envelope Glycoprotein 
+In Complex With The Fab Fragment Of The Broadly Neutralizing 
+Human Antibody Ede1 C8
+Length=272
+
+ Score = 183 bits (465),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 104/131 (79%), Gaps = 9/131 (7%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSC+ASGFTFS   M WVRQAPGKGLE+V+ I+ +G + +Y
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCSASGFTFSTYSMHWVRQAPGKGLEYVSAITGEGDSAFY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLY +MNSLR EDTAVYYC         V    +  YYY MDV
+Sbjct  61   ADSVKGRFTISRDNSKNTLYFEMNSLRPEDTAVYYC---------VGGYSNFYYYYTMDV  111
+
+Query  121  WGQGTTVTVSS  131
+            WGQGTTVTVSS
+Sbjct  112  WGQGTTVTVSS  122
+
+
+>pdb|4UT6|H Chain H, Crystal Structure Of Dengue 2 Virus Envelope Glycoprotein 
+In Complex With The Fab Fragment Of The Broadly Neutralizing 
+Human Antibody Ede2 B7
+ pdb|4UT6|I Chain I, Crystal Structure Of Dengue 2 Virus Envelope Glycoprotein 
+In Complex With The Fab Fragment Of The Broadly Neutralizing 
+Human Antibody Ede2 B7
+Length=283
+
+ Score = 183 bits (465),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 96/137 (70%), Positives = 107/137 (78%), Gaps = 10/137 (7%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SL+LSCAASGFTFS+ WM WVRQAPGKGL WV+  + DGS+  Y
+Sbjct  1    EVQLVESGGGLVQPGGSLKLSCAASGFTFSSHWMHWVRQAPGKGLVWVSRTNSDGSSTSY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYY-----  115
+            ADSVKGRF ISRDNSKNT+YL MN LRAEDTAVY+CA+D     V       GYY     
+Sbjct  61   ADSVKGRFMISRDNSKNTVYLHMNGLRAEDTAVYFCARDG----VRYYYDSTGYYPDNFF  116
+
+Query  116  -YGMDVWGQGTTVTVSS  131
+             YG+DVWGQGTTVTVSS
+Sbjct  117  QYGLDVWGQGTTVTVSS  133
+
+
+>pdb|4UTB|H Chain H, Crystal Structure Of Dengue 2 Virus Envelope Glycoprotein 
+In Complex With The Fab Fragment Of The Broadly Neutralizing 
+Human Antibody Ede2 A11
+ pdb|4UTB|I Chain I, Crystal Structure Of Dengue 2 Virus Envelope Glycoprotein 
+In Complex With The Fab Fragment Of The Broadly Neutralizing 
+Human Antibody Ede2 A11
+Length=283
+
+ Score = 182 bits (463),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 92/133 (69%), Positives = 107/133 (80%), Gaps = 2/133 (2%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+V+PG SLRLSCAASGF++SN WM WVRQAPGKGL WV+ I+ DGS + Y
+Sbjct  1    EVQLVESGGGLVRPGGSLRLSCAASGFSYSNHWMHWVRQAPGKGLVWVSRINSDGSTRNY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD--QFVAVVVPAAIHLGYYYGM  118
+            AD VKGRFTISRDN++NTLYL+MNSL A+DTAVYYC +D  +F            + YGM
+Sbjct  61   ADFVKGRFTISRDNAENTLYLEMNSLTADDTAVYYCVRDGVRFYYDSTGYYPDSFFKYGM  120
+
+Query  119  DVWGQGTTVTVSS  131
+            DVWGQGTTVTVSS
+Sbjct  121  DVWGQGTTVTVSS  133
+
+
+>pdb|4PTU|B Chain B, Crystal Structure Of Anti-23f Strep Fab C05 With Rhamnose
+ pdb|4PTT|B Chain B, Crystal Structure Of Anti-23f Strep Fab C05
+Length=235
+
+ Score = 181 bits (459),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 94/129 (73%), Positives = 101/129 (78%), Gaps = 6/129 (5%)
+
+Query  3    QLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYAD  62
+            QLVESGGGVVQPGRSL LSCAASGFTFS+  M WVRQAPGKGLEWVAVI+  G+  YYAD
+Sbjct  3    QLVESGGGVVQPGRSLTLSCAASGFTFSSHGMHWVRQAPGKGLEWVAVIASHGNVNYYAD  62
+
+Query  63   SVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVWG  122
+            SVKGRFTISRDNSKNTL LQM+SLRAEDTAVYYCAK+        +       +  DVWG
+Sbjct  63   SVKGRFTISRDNSKNTLSLQMDSLRAEDTAVYYCAKES------DSCGGDCSRFAFDVWG  116
+
+Query  123  QGTTVTVSS  131
+             GT VTVSS
+Sbjct  117  HGTMVTVSS  125
+
+
+>pdb|4NKI|H Chain H, Crystal Structure Of A Fab
+Length=232
+
+ Score = 181 bits (458),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 102/131 (78%), Gaps = 11/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS+  M WVRQAPGKGLEWV+ I   G   +Y
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSSYIMMWVRQAPGKGLEWVSSIYPSGGITFY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            AD+VKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+           I LG    +D 
+Sbjct  61   ADTVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAR-----------IKLGTVTTVDY  109
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  110  WGQGTLVTVSS  120
+
+
+>pdb|4FQL|H Chain H, Influenza B Ha Antibody (Fab) Cr8033
+Length=236
+
+ Score = 181 bits (458),  Expect = 4e-57, Method: Compositional matrix adjust.
+ Identities = 91/131 (69%), Positives = 106/131 (81%), Gaps = 4/131 (3%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPGRSLRLSCAASGF+F    M WVRQAPGKGLEWVA I++ G+   Y
+Sbjct  1    EVQLVESGGGLVQPGRSLRLSCAASGFSFDEYTMHWVRQAPGKGLEWVAGINWKGNFMGY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSV+GRFTISRDN KN+LYLQMNSLRAEDTA+YYCAKD+  +    +A+ +      D+
+Sbjct  61   ADSVQGRFTISRDNGKNSLYLQMNSLRAEDTALYYCAKDRLES----SAMDILEGGTFDI  116
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  117  WGQGTMVTVSS  127
+
+
+>pdb|1MHP|H Chain H, Crystal Structure Of A Chimeric Alpha1 Integrin I-Domain 
+In Complex With The Fab Fragment Of A Humanized Neutralizing 
+Antibody
+ pdb|1MHP|X Chain X, Crystal Structure Of A Chimeric Alpha1 Integrin I-Domain 
+In Complex With The Fab Fragment Of A Humanized Neutralizing 
+Antibody
+Length=219
+
+ Score = 180 bits (456),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 102/131 (78%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS   MSWVRQAPGKGLEWVA IS  G + YY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSRYTMSWVRQAPGKGLEWVATIS-GGGHTYY  59
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC +              G Y+  DV
+Sbjct  60   LDSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTR----------GFGDGGYF--DV  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  108  WGQGTLVTVSS  118
+
+
+>pdb|4JFZ|H Chain H, Structure Of Phosphoserine (psab) Scaffold Bound To 
+Pser Peptide
+Length=235
+
+ Score = 181 bits (458),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 92/131 (70%), Positives = 98/131 (75%), Gaps = 11/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSC  SGFTF    MSWVRQAPGKGLEWVA I+  G   YY
+Sbjct  4    EVQLVESGGGLVQPGGSLRLSCVTSGFTFRKFGMSWVRQAPGKGLEWVASIATGGHTTYY  63
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            +DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC +            +    Y MD 
+Sbjct  64   SDSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTRG-----------YSSTSYAMDY  112
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  113  WGQGTLVTVSS  123
+
+
+>pdb|2NZ9|D Chain D, Crystal Structure Of Botulinum Neurotoxin Type A Complexed 
+With Monoclonal Antibody Ar2
+ pdb|2NZ9|F Chain F, Crystal Structure Of Botulinum Neurotoxin Type A Complexed 
+With Monoclonal Antibody Ar2
+Length=224
+
+ Score = 180 bits (457),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 102/131 (78%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQL ESGGG+VQPG SLRLSCAASGFTFS+ +M WVRQAPGKGLEWVA IS  GS  YY
+Sbjct  1    QVQLQESGGGLVQPGGSLRLSCAASGFTFSDHYMYWVRQAPGKGLEWVATISDGGSYTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            +DSV+GRFT SRDNSKNTLYLQMNSLRAEDTA+YYC++ +             Y   MD 
+Sbjct  61   SDSVEGRFTTSRDNSKNTLYLQMNSLRAEDTAIYYCSRYR-------------YDDAMDY  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  108  WGQGTLVTVSS  118
+
+
+>pdb|3HR5|H Chain H, M1prime Peptide From Ige Bound By Humanized Antibody 
+47h4 Fab
+ pdb|3HR5|B Chain B, M1prime Peptide From Ige Bound By Humanized Antibody 
+47h4 Fab
+ pdb|3HR5|I Chain I, M1prime Peptide From Ige Bound By Humanized Antibody 
+47h4 Fab
+ pdb|3HR5|J Chain J, M1prime Peptide From Ige Bound By Humanized Antibody 
+47h4 Fab
+Length=226
+
+ Score = 180 bits (456),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 94/131 (72%), Positives = 102/131 (78%), Gaps = 14/131 (11%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+  ++WVRQAPGKGLEWVA IS      YY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSDYGIAWVRQAPGKGLEWVAFISDLAYTIYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            AD+V GRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+D + A              MD 
+Sbjct  61   ADTVTGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDNWDA--------------MDY  106
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  107  WGQGTLVTVSS  117
+
+
+>pdb|1Q1J|H Chain H, Crystal Structure Analysis Of Anti-Hiv-1 Fab 447-52d 
+In Complex With V3 Peptide
+ pdb|1Q1J|I Chain I, Crystal Structure Analysis Of Anti-Hiv-1 Fab 447-52d 
+In Complex With V3 Peptide
+ pdb|3C2A|H Chain H, Antibody Fab Fragment 447-52d In Complex With Ug1033 
+Peptide
+ pdb|3C2A|I Chain I, Antibody Fab Fragment 447-52d In Complex With Ug1033 
+Peptide
+ pdb|4M1D|H Chain H, Crystal Structure Of Anti-hiv-1 Fab 447-52d In Complex 
+With V3 Cyclic Peptide Mn
+ pdb|4M1D|I Chain I, Crystal Structure Of Anti-hiv-1 Fab 447-52d In Complex 
+With V3 Cyclic Peptide Mn
+Length=231
+
+ Score = 180 bits (457),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 91/133 (68%), Positives = 105/133 (79%), Gaps = 4/133 (3%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVIS--YDGSNK  58
+            +VQLVESGGG+V+PG SLRL+C ASGFTFS+ W++WVRQAPGKGLEWV  I    DG   
+Sbjct  1    EVQLVESGGGLVKPGGSLRLTCVASGFTFSDVWLNWVRQAPGKGLEWVGRIKSRTDGGTT  60
+
+Query  59   YYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGM  118
+             YA SVKGRFTISRD+SKNTLYLQMNSL+ EDTAVY C  D F+ +   +  +  YYY M
+Sbjct  61   DYAASVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYSCTTDGFIMIRGVSEDY--YYYYM  118
+
+Query  119  DVWGQGTTVTVSS  131
+            DVWG+GTTVTVSS
+Sbjct  119  DVWGKGTTVTVSS  131
+
+
+>pdb|4OD1|H Chain H, Crystal Structure Of Human Fab Cap256-vrc26.03, A Potent 
+V1v2-directed Hiv-1 Neutralizing Antibody
+Length=255
+
+ Score = 181 bits (459),  Expect = 6e-57, Method: Compositional matrix adjust.
+ Identities = 96/143 (67%), Positives = 104/143 (73%), Gaps = 13/143 (9%)
+
+Query  2    VQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYA  61
+            VQLVESGGGVVQPG+SLRLSCAAS F+F+   M WVRQAPGKGLEWVA ISYDG++KY+A
+Sbjct  1    VQLVESGGGVVQPGKSLRLSCAASRFSFNRYGMHWVRQAPGKGLEWVAAISYDGTDKYHA  60
+
+Query  62   DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD-------------QFVAVVVPA  108
+            D V GRFTISRDNSKNTLYLQMNSLRAEDTA+YYCAKD                   +P 
+Sbjct  61   DKVWGRFTISRDNSKNTLYLQMNSLRAEDTALYYCAKDLREDECEEWWSDXXDFGKQLPC  120
+
+Query  109  AIHLGYYYGMDVWGQGTTVTVSS  131
+                G     D WGQGT VTVSS
+Sbjct  121  RKSRGVAGIFDGWGQGTMVTVSS  143
+
+
+>pdb|3GHB|H Chain H, Crystal Structure Of Anti-Hiv-1 Fab 447-52d In Complex 
+With V3 Peptide W2rw020
+ pdb|3GHB|I Chain I, Crystal Structure Of Anti-Hiv-1 Fab 447-52d In Complex 
+With V3 Peptide W2rw020
+Length=235
+
+ Score = 180 bits (457),  Expect = 7e-57, Method: Compositional matrix adjust.
+ Identities = 91/133 (68%), Positives = 105/133 (79%), Gaps = 4/133 (3%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVIS--YDGSNK  58
+            +VQLVESGGG+V+PG SLRL+C ASGFTFS+ W++WVRQAPGKGLEWV  I    DG   
+Sbjct  1    EVQLVESGGGLVKPGGSLRLTCVASGFTFSDVWLNWVRQAPGKGLEWVGRIKSRTDGGTT  60
+
+Query  59   YYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGM  118
+             YA SVKGRFTISRD+SKNTLYLQMNSL+ EDTAVY C  D F+ +   +  +  YYY M
+Sbjct  61   DYAASVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYSCTTDGFIMIRGVSEDY--YYYYM  118
+
+Query  119  DVWGQGTTVTVSS  131
+            DVWG+GTTVTVSS
+Sbjct  119  DVWGKGTTVTVSS  131
+
+
+>pdb|2AAB|H Chain H, Structural Basis Of Antigen Mimicry In A Clinically 
+Relevant Melanoma Antigen System
+Length=243
+
+ Score = 180 bits (457),  Expect = 8e-57, Method: Compositional matrix adjust.
+ Identities = 92/131 (70%), Positives = 104/131 (79%), Gaps = 8/131 (6%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+             VQLVESGGG+VQPG S +LSCAASGFTFS+  M WVRQAP KGLEWVA IS D SN YY
+Sbjct  1    DVQLVESGGGLVQPGGSRKLSCAASGFTFSSFGMHWVRQAPEKGLEWVAYISSDSSNIYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            AD+VKGRFTISRDN KNTL+LQM SLR+EDTA+YYCA+  +V        H+ +Y+  DV
+Sbjct  61   ADTVKGRFTISRDNPKNTLFLQMTSLRSEDTAMYYCARSNYV------GYHVRWYF--DV  112
+
+Query  121  WGQGTTVTVSS  131
+            WG GTTVTVSS
+Sbjct  113  WGAGTTVTVSS  123
+
+
+>pdb|4ORG|H Chain H, Crystal Structure Of Human Fab Cap256-vrc26.04, A Potent 
+V1v2-directed Hiv-1 Neutralizing Antibody
+ pdb|4ORG|A Chain A, Crystal Structure Of Human Fab Cap256-vrc26.04, A Potent 
+V1v2-directed Hiv-1 Neutralizing Antibody
+ pdb|4ORG|C Chain C, Crystal Structure Of Human Fab Cap256-vrc26.04, A Potent 
+V1v2-directed Hiv-1 Neutralizing Antibody
+ pdb|4ORG|E Chain E, Crystal Structure Of Human Fab Cap256-vrc26.04, A Potent 
+V1v2-directed Hiv-1 Neutralizing Antibody
+Length=256
+
+ Score = 181 bits (458),  Expect = 8e-57, Method: Compositional matrix adjust.
+ Identities = 95/144 (66%), Positives = 104/144 (72%), Gaps = 13/144 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGGVVQPG+SLRLSCAAS F+F+   M WVRQAPGKGLEWVA ISYDG++KY+
+Sbjct  1    EVQLVESGGGVVQPGKSLRLSCAASQFSFNRYGMHWVRQAPGKGLEWVAAISYDGTDKYH  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKD-------------QFVAVVVP  107
+            AD V GRFTISRDNSKNTLYLQMNSLRAEDTA+YYCAKD                   +P
+Sbjct  61   ADKVWGRFTISRDNSKNTLYLQMNSLRAEDTALYYCAKDLREDECEEWWSDXXDFGKQLP  120
+
+Query  108  AAIHLGYYYGMDVWGQGTTVTVSS  131
+                 G     D WGQGT V VSS
+Sbjct  121  CRKSRGVAGIFDKWGQGTMVIVSS  144
+
+
+>pdb|3BN9|D Chain D, Crystal Structure Of Mt-Sp1 In Complex With Fab Inhibitor 
+E2
+ pdb|3BN9|F Chain F, Crystal Structure Of Mt-Sp1 In Complex With Fab Inhibitor 
+E2
+Length=257
+
+ Score = 181 bits (458),  Expect = 9e-57, Method: Compositional matrix adjust.
+ Identities = 94/131 (72%), Positives = 103/131 (79%), Gaps = 3/131 (2%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLV+SGGG+V+PG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G + YY
+Sbjct  1    QVQLVQSGGGLVKPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQM+SLRAEDTAVYYCA+     +  P           D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMSSLRAEDTAVYYCARPY---LTYPQRRGPQNVSPFDN  117
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  118  WGQGTMVTVSS  128
+
+
+>pdb|4UAO|C Chain C, Crystal Structure Of Apical Membrane Antigen 1 From 
+Plasmodium Knowlesi In Complex With An Invasion Inhibitory Antibody
+Length=223
+
+ Score = 179 bits (455),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 89/131 (68%), Positives = 101/131 (77%), Gaps = 10/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPGRSL+LSCAASGFTFSN +M+WVRQAP KGLEWVA I+  GS  YY
+Sbjct  1    EVQLVESGGGLVQPGRSLKLSCAASGFTFSNYYMAWVRQAPKKGLEWVATITTSGSRSYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDNS+++LYLQMNSL +EDTA YYCA+  +           GY    D 
+Sbjct  61   PDSVKGRFTISRDNSESSLYLQMNSLESEDTATYYCARRGYG----------GYSEDFDY  110
+
+Query  121  WGQGTTVTVSS  131
+            WGQG  VTVSS
+Sbjct  111  WGQGVMVTVSS  121
+
+
+>pdb|2FJF|H Chain H, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|B Chain B, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|D Chain D, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|F Chain F, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|I Chain I, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|K Chain K, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|N Chain N, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|P Chain P, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|R Chain R, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|T Chain T, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|V Chain V, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJF|X Chain X, Structure Of The G6 Fab, A Phage Derived Vegf Binding 
+Fab
+ pdb|2FJG|H Chain H, Structure Of The G6 Fab, A Phage Derived Fab Fragment, 
+In Complex With Vegf
+ pdb|2FJG|B Chain B, Structure Of The G6 Fab, A Phage Derived Fab Fragment, 
+In Complex With Vegf
+Length=227
+
+ Score = 179 bits (455),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 94/131 (72%), Positives = 101/131 (77%), Gaps = 11/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFT S+ W+ WVRQAPGKGLEWVA I+  G   YY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTISDYWIHWVRQAPGKGLEWVAGITPAGGYTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCA+  F    +P        Y MD 
+Sbjct  61   ADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARFVF---FLP--------YAMDY  109
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  110  WGQGTLVTVSS  120
+
+
+>pdb|4NYL|H Chain H, Crystal Structure Of Adalimumab Fab Fragment
+ pdb|4NYL|A Chain A, Crystal Structure Of Adalimumab Fab Fragment
+ pdb|4NYL|C Chain C, Crystal Structure Of Adalimumab Fab Fragment
+ pdb|4NYL|E Chain E, Crystal Structure Of Adalimumab Fab Fragment
+Length=230
+
+ Score = 179 bits (455),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 89/131 (68%), Positives = 104/131 (79%), Gaps = 10/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPGRSLRLSCAASGFTF +  M WVRQAPGKGLEWV+ I+++  +  Y
+Sbjct  1    EVQLVESGGGLVQPGRSLRLSCAASGFTFDDYAMHWVRQAPGKGLEWVSAITWNSGHIDY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSV+GRFTISRDN+KN+LYLQMNSLRAEDTAVYYCAK  +++              +D 
+Sbjct  61   ADSVEGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCAKVSYLSTAS----------SLDY  110
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  111  WGQGTLVTVSS  121
+
+
+>pdb|3EOT|H Chain H, Crystal Structure Of Lac031, An Engineered Anti-Vla1 
+Fab
+Length=226
+
+ Score = 179 bits (455),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 102/131 (78%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS   MSWVRQAPGKGLEWVA IS  G + YY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSRYTMSWVRQAPGKGLEWVATIS-GGGHTYY  59
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC +              G Y+  DV
+Sbjct  60   LDSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTR----------GFGDGGYF--DV  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  108  WGQGTLVTVSS  118
+
+
+>pdb|2B2X|H Chain H, Vla1 Rdeltah I-Domain Complexed With A Quadruple Mutant 
+Of The Aqc2 Fab
+ pdb|2B2X|I Chain I, Vla1 Rdeltah I-Domain Complexed With A Quadruple Mutant 
+Of The Aqc2 Fab
+Length=226
+
+ Score = 179 bits (454),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 97/131 (74%), Positives = 103/131 (79%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS   MSWVRQAPGKGLEWVAVIS  G + YY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSRYTMSWVRQAPGKGLEWVAVIS-GGGHTYY  59
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSV+GRFTISRDNSKNTLYLQMNSLRAEDTAVYYC +              G Y+  DV
+Sbjct  60   LDSVEGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTR----------GFGDGGYF--DV  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  108  WGQGTLVTVSS  118
+
+
+>pdb|4Y5Y|A Chain A, Diabody 330 Complex With Epor
+ pdb|4Y5Y|D Chain D, Diabody 330 Complex With Epor
+Length=130
+
+ Score = 176 bits (446),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 91/131 (69%), Positives = 102/131 (78%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCA SGFTFS  WM+WVRQAPGKGLEWVA I  DGS KYY
+Sbjct  8    EVQLVESGGGLVQPGGSLRLSCAVSGFTFSXYWMTWVRQAPGKGLEWVANIXPDGSEKYY  67
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             +SVKGRFTISRDN+KN++YLQMNS+RAEDTAVYYCA+           +  G  +    
+Sbjct  68   VESVKGRFTISRDNAKNSVYLQMNSVRAEDTAVYYCAR-----------VSRGGSF--SD  114
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  115  WGQGTLVTVSS  125
+
+
+>pdb|4JG0|H Chain H, Structure Of Phosphoserine/threonine (pstab) Scaffold 
+Bound To Pser Peptide
+Length=236
+
+ Score = 179 bits (454),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 94/132 (71%), Positives = 99/132 (75%), Gaps = 12/132 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYD-GSNKY  59
+            +VQLVESGGG+VQPG SLRLSC  SGFTF    MSWVRQAPGKGLEWVA IS   GS  Y
+Sbjct  4    EVQLVESGGGLVQPGGSLRLSCVTSGFTFRKFGMSWVRQAPGKGLEWVASISTPRGSTTY  63
+
+Query  60   YADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMD  119
+            Y+DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC +            +    Y MD
+Sbjct  64   YSDSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTRG-----------YSSTSYAMD  112
+
+Query  120  VWGQGTTVTVSS  131
+             WGQGT VTVSS
+Sbjct  113  YWGQGTLVTVSS  124
+
+
+>pdb|2A9N|H Chain H, A Mutation Designed To Alter Crystal Packing Permits 
+Structural Analysis Of A Tight-Binding Fluorescein-Scfv Complex
+ pdb|2A9N|I Chain I, A Mutation Designed To Alter Crystal Packing Permits 
+Structural Analysis Of A Tight-Binding Fluorescein-Scfv Complex
+Length=126
+
+ Score = 176 bits (445),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 91/131 (69%), Positives = 105/131 (80%), Gaps = 6/131 (5%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGG +VQPG SLRLSCAASGFTF +  MSWVRQAPG GLEWVA +S   S  +Y
+Sbjct  1    QVQLVESGGNLVQPGGSLRLSCAASGFTFGSFSMSWVRQAPGGGLEWVAGLSARSSLTHY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYG-MD  119
+            ADSVKGRFTISRDN+KN++YLQMNSLR EDTAVYYCA+  +      ++ + G++Y  MD
+Sbjct  61   ADSVKGRFTISRDNAKNSVYLQMNSLRVEDTAVYYCARRSY-----DSSGYAGHFYSYMD  115
+
+Query  120  VWGQGTTVTVS  130
+            VWGQGT VTVS
+Sbjct  116  VWGQGTLVTVS  126
+
+
+>pdb|4JG1|H Chain H, Structure Of Phosphoserine/threonine (pstab) Scaffold 
+Bound To Pthr Peptide
+Length=234
+
+ Score = 179 bits (454),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 94/132 (71%), Positives = 99/132 (75%), Gaps = 12/132 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYD-GSNKY  59
+            +VQLVESGGG+VQPG SLRLSC  SGFTF    MSWVRQAPGKGLEWVA IS   GS  Y
+Sbjct  4    EVQLVESGGGLVQPGGSLRLSCVTSGFTFRKFGMSWVRQAPGKGLEWVASISTPRGSTTY  63
+
+Query  60   YADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMD  119
+            Y+DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC +            +    Y MD
+Sbjct  64   YSDSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTRG-----------YSSTSYAMD  112
+
+Query  120  VWGQGTTVTVSS  131
+             WGQGT VTVSS
+Sbjct  113  YWGQGTLVTVSS  124
+
+
+>pdb|3Q6F|B Chain B, Crystal Structure Of Fab Of Human Mab 2909 Specific 
+For Quaternary Neutralizing Epitope Of Hiv-1 Gp120
+ pdb|3Q6F|D Chain D, Crystal Structure Of Fab Of Human Mab 2909 Specific 
+For Quaternary Neutralizing Epitope Of Hiv-1 Gp120
+ pdb|3Q6F|F Chain F, Crystal Structure Of Fab Of Human Mab 2909 Specific 
+For Quaternary Neutralizing Epitope Of Hiv-1 Gp120
+ pdb|3Q6F|H Chain H, Crystal Structure Of Fab Of Human Mab 2909 Specific 
+For Quaternary Neutralizing Epitope Of Hiv-1 Gp120
+ pdb|3Q6F|J Chain J, Crystal Structure Of Fab Of Human Mab 2909 Specific 
+For Quaternary Neutralizing Epitope Of Hiv-1 Gp120
+ pdb|3Q6F|L Chain L, Crystal Structure Of Fab Of Human Mab 2909 Specific 
+For Quaternary Neutralizing Epitope Of Hiv-1 Gp120
+Length=233
+
+ Score = 179 bits (454),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 90/131 (69%), Positives = 107/131 (82%), Gaps = 1/131 (1%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGG VVQPG SLRLSC ASGF+F ++ M WVRQAPGKGL+WV++IS++G   YY
+Sbjct  1    EVQLVESGGNVVQPGGSLRLSCTASGFSFDDSTMHWVRQAPGKGLQWVSLISWNGGRTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKN+LYLQMNSL+ EDTA Y+CAKD+  +      +   Y+Y MD 
+Sbjct  61   ADSVKGRFTISRDNSKNSLYLQMNSLKTEDTAFYFCAKDKGDSDXD-XNLGYSYFYYMDG  119
+
+Query  121  WGQGTTVTVSS  131
+            WG+GTTVTVSS
+Sbjct  120  WGKGTTVTVSS  130
+
+
+>pdb|3SKJ|H Chain H, Structural And Functional Characterization Of An Agonistic 
+Anti-Human Epha2 Monoclonal Antibody
+ pdb|3SKJ|I Chain I, Structural And Functional Characterization Of An Agonistic 
+Anti-Human Epha2 Monoclonal Antibody
+Length=231
+
+ Score = 179 bits (453),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 95/135 (70%), Positives = 103/135 (76%), Gaps = 11/135 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS+  M+WVRQAPGKGLEWV+ I   G   +Y
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSHYMMAWVRQAPGKGLEWVSRIGPSGGPTHY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA----KDQFVAVVVPAAIHLGYYY  116
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA       +VAV  PA        
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAGYDSGYDYVAVAGPAEY------  114
+
+Query  117  GMDVWGQGTTVTVSS  131
+                WGQGT VTVSS
+Sbjct  115  -FQHWGQGTLVTVSS  128
+
+
+>pdb|4JFY|B Chain B, Apo Structure Of Phosphotyrosine (pyab) Scaffold
+ pdb|4JFY|H Chain H, Apo Structure Of Phosphotyrosine (pyab) Scaffold
+ pdb|4JFX|B Chain B, Structure Of Phosphotyrosine (ptyr) Scaffold Bound To 
+Ptyr Peptide
+ pdb|4JFX|H Chain H, Structure Of Phosphotyrosine (ptyr) Scaffold Bound To 
+Ptyr Peptide
+Length=235
+
+ Score = 179 bits (454),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 92/131 (70%), Positives = 97/131 (74%), Gaps = 11/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSC  SGFTF    MSWVRQAPGKGLEWVA I   G   YY
+Sbjct  4    EVQLVESGGGLVQPGGSLRLSCVTSGFTFRKFGMSWVRQAPGKGLEWVASIVTGGRKTYY  63
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            +DSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYC +            +    Y MD 
+Sbjct  64   SDSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTRG-----------YSSTSYAMDY  112
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  113  WGQGTLVTVSS  123
+
+
+>pdb|1VHP|A Chain A, Vh-P8, Nmr
+Length=117
+
+ Score = 175 bits (444),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 92/131 (70%), Positives = 100/131 (76%), Gaps = 14/131 (11%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGK  E V+ +S  G + YY
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKEREIVSAVSGSGGSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA+ +               Y  D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARLK--------------KYAFDY  106
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  107  WGQGTLVTVSS  117
+
+
+>pdb|4PGJ|A Chain A, Human Heavy-chain Domain Antibody In Complex With Hen 
+Egg-white Lysozyme
+ pdb|4PGJ|C Chain C, Human Heavy-chain Domain Antibody In Complex With Hen 
+Egg-white Lysozyme
+ pdb|4U3X|A Chain A, Structure Of A Human Vh Antibody Domain Binding To The 
+Cleft Of Hen Egg Lysozyme
+ pdb|4U3X|C Chain C, Structure Of A Human Vh Antibody Domain Binding To The 
+Cleft Of Hen Egg Lysozyme
+Length=121
+
+ Score = 175 bits (444),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 98/131 (75%), Gaps = 10/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGF F    M WVRQAPGKGLEWV+ I     + YY
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFRFDAEDMGWVRQAPGKGLEWVSSIYGPSGSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAK        P   H     G D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAK-----YTSPPQNH-----GFDY  110
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  111  WGQGTLVTVSS  121
+
+
+>pdb|2VYR|E Chain E, Structure Of Human Mdm4 N-terminal Domain Bound To A 
+Single Domain Antibody
+ pdb|2VYR|F Chain F, Structure Of Human Mdm4 N-terminal Domain Bound To A 
+Single Domain Antibody
+ pdb|2VYR|G Chain G, Structure Of Human Mdm4 N-terminal Domain Bound To A 
+Single Domain Antibody
+ pdb|2VYR|H Chain H, Structure Of Human Mdm4 N-terminal Domain Bound To A 
+Single Domain Antibody
+ pdb|2VYR|I Chain I, Structure Of Human Mdm4 N-terminal Domain Bound To A 
+Single Domain Antibody
+ pdb|2VYR|J Chain J, Structure Of Human Mdm4 N-terminal Domain Bound To A 
+Single Domain Antibody
+ pdb|2VYR|K Chain K, Structure Of Human Mdm4 N-terminal Domain Bound To A 
+Single Domain Antibody
+ pdb|2VYR|L Chain L, Structure Of Human Mdm4 N-terminal Domain Bound To A 
+Single Domain Antibody
+Length=153
+
+ Score = 176 bits (445),  Expect = 4e-56, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 100/131 (76%), Gaps = 7/131 (5%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTF    M WVRQAPGKGLEWV+ I+  G   YY
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFEEYAMLWVRQAPGKGLEWVSGINARGYTTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLR EDTAVYYCAK  +     P     G  +  D 
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRTEDTAVYYCAKPWY-----PFMASKGSEF--DY  113
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  114  WGQGTLVTVSS  124
+
+
+>pdb|2A9M|H Chain H, Structural Analysis Of A Tight-Binding Fluorescein-Scfv; 
+Apo Form
+ pdb|2A9M|I Chain I, Structural Analysis Of A Tight-Binding Fluorescein-Scfv; 
+Apo Form
+Length=126
+
+ Score = 174 bits (442),  Expect = 4e-56, Method: Compositional matrix adjust.
+ Identities = 91/131 (69%), Positives = 105/131 (80%), Gaps = 6/131 (5%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQLVESGG +VQPG SLRLSCAASGFTF +  MSWVRQAPG GLEWVA +S   S  +Y
+Sbjct  1    QVQLVESGGNLVQPGGSLRLSCAASGFTFGSFSMSWVRQAPGGGLEWVAGLSARSSLTHY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYG-MD  119
+            ADSVKGRFTISRDN+KN++YLQMNSLR EDTAVYYCA+  +      ++ + G++Y  MD
+Sbjct  61   ADSVKGRFTISRDNAKNSVYLQMNSLRVEDTAVYYCARRSY-----DSSGYWGHFYSYMD  115
+
+Query  120  VWGQGTTVTVS  130
+            VWGQGT VTVS
+Sbjct  116  VWGQGTLVTVS  126
+
+
+>pdb|4OCW|H Chain H, Crystal Structure Of Human Fab Cap256-vrc26.06, A Potent 
+V1v2-directed Hiv-1 Neutralizing Antibody
+Length=257
+
+ Score = 179 bits (453),  Expect = 4e-56, Method: Compositional matrix adjust.
+ Identities = 93/145 (64%), Positives = 102/145 (70%), Gaps = 14/145 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGGVVQPGRSLRLSC ASGF+F+N  M WVRQAPGKGLEWVA IS+ G  KYY
+Sbjct  1    EVQLIESGGGVVQPGRSLRLSCGASGFSFNNYGMHWVRQAPGKGLEWVAGISFAGIKKYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYG---  117
+              SVKGRFTISRDNSKN  YLQMNSLR EDTA+YYCA+D          +   Y +G   
+Sbjct  61   GTSVKGRFTISRDNSKNNFYLQMNSLRVEDTALYYCARDLRELECEEWTLXNXYDFGSRG  120
+
+Query  118  -----------MDVWGQGTTVTVSS  131
+                        DVWGQGT VTVSS
+Sbjct  121  PCVDPRGVAGSFDVWGQGTMVTVSS  145
+
+
+>pdb|4QF1|H Chain H, Crystal Structure Of Unliganded Ch59ua, The Inferred 
+Unmutated Ancestor Of The Rv144 Anti-hiv Antibody Lineage Producing 
+Ch59
+ pdb|4QF1|A Chain A, Crystal Structure Of Unliganded Ch59ua, The Inferred 
+Unmutated Ancestor Of The Rv144 Anti-hiv Antibody Lineage Producing 
+Ch59
+Length=225
+
+ Score = 177 bits (450),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 91/131 (69%), Positives = 102/131 (78%), Gaps = 11/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPGRSLRLSCAASGFTF +  M WVRQAPGKGLEWV+ IS++  +  Y
+Sbjct  1    EVQLVESGGGLVQPGRSLRLSCAASGFTFDDYAMHWVRQAPGKGLEWVSGISWNSGSIGY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDN+KN+LYLQMNSLRAEDTA+YYCAKD     +             D 
+Sbjct  61   ADSVKGRFTISRDNAKNSLYLQMNSLRAEDTALYYCAKDSPRGELP-----------FDY  109
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  110  WGQGTLVTVSS  120
+
+
+>pdb|3WD5|H Chain H, Crystal Structure Of Tnfalpha In Complex With Adalimumab 
+Fab Fragment
+Length=219
+
+ Score = 177 bits (449),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 88/131 (67%), Positives = 103/131 (79%), Gaps = 10/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPGRSLRLSCAASGFTF +  M WVRQAPGKGLEWV+ I+++  +  Y
+Sbjct  1    EVQLVESGGGLVQPGRSLRLSCAASGFTFDDYAMHWVRQAPGKGLEWVSAITWNSGHIDY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSV+GRFTISRDN+KN+LYL MNSLRAEDTAVYYCAK  +++              +D 
+Sbjct  61   ADSVEGRFTISRDNAKNSLYLDMNSLRAEDTAVYYCAKVSYLSTAS----------SLDY  110
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  111  WGQGTLVTVSS  121
+
+
+>pdb|4DTG|H Chain H, Hemostatic Effect Of A Monoclonal Antibody Mab 2021 
+Blocking The Interaction Between Fxa And Tfpi In A Rabbit Hemophilia 
+Model
+Length=222
+
+ Score = 177 bits (450),  Expect = 5e-56, Method: Compositional matrix adjust.
+ Identities = 94/134 (70%), Positives = 102/134 (76%), Gaps = 16/134 (12%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+V+PG SLRLSCAASGFTFSN  MSWVRQ P K LEWVA IS  GS  Y+
+Sbjct  1    EVQLVESGGGLVKPGGSLRLSCAASGFTFSNYAMSWVRQTPEKRLEWVATISRSGSYSYF  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYY---YG  117
+             DSV+GRFTISRDN+KN+LYLQMNSLRAEDTAVYYCA+             LG Y     
+Sbjct  61   PDSVQGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCAR-------------LGGYDEGDA  107
+
+Query  118  MDVWGQGTTVTVSS  131
+            MD WGQGTTVTVSS
+Sbjct  108  MDSWGQGTTVTVSS  121
+
+
+>pdb|3G6J|F Chain F, C3b In Complex With A C3b Specific Fab
+ pdb|3G6J|H Chain H, C3b In Complex With A C3b Specific Fab
+Length=226
+
+ Score = 177 bits (449),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 94/132 (71%), Positives = 106/132 (80%), Gaps = 10/132 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVI-SYDGSNKY  59
+            +VQLVESGGG+VQPG SLRLSCAASGF+F+++ +SWVRQAPGKGLEWV +I  Y+G N Y
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFSFTSSSVSWVRQAPGKGLEWVGLIYPYNGFN-Y  59
+
+Query  60   YADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMD  119
+            YADSVKGRFTIS + SKNT YLQMNSLRAEDTAVYYCA++        A    G YY MD
+Sbjct  60   YADSVKGRFTISANTSKNTAYLQMNSLRAEDTAVYYCARN--------ALYGSGGYYAMD  111
+
+Query  120  VWGQGTTVTVSS  131
+             WGQGT VTVSS
+Sbjct  112  YWGQGTLVTVSS  123
+
+
+>pdb|2QQN|H Chain H, Neuropilin-1 B1 Domain In Complex With A Vegf-Blocking 
+Fab
+Length=230
+
+ Score = 177 bits (450),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 96/134 (72%), Positives = 102/134 (76%), Gaps = 14/134 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+  MSWVRQAPGKGLEWV+ IS  G    Y
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSQISPAGGYTNY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYG---  117
+            ADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCA+ +           L YY     
+Sbjct  61   ADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARGE-----------LPYYRMSKV  109
+
+Query  118  MDVWGQGTTVTVSS  131
+            MDVWGQGT VTVSS
+Sbjct  110  MDVWGQGTLVTVSS  123
+
+
+>pdb|3U30|C Chain C, Crystal Structure Of A Linear-Specific Ubiquitin Fab 
+Bound To Linear Ubiquitin
+ pdb|3U30|F Chain F, Crystal Structure Of A Linear-Specific Ubiquitin Fab 
+Bound To Linear Ubiquitin
+Length=227
+
+ Score = 177 bits (449),  Expect = 9e-56, Method: Compositional matrix adjust.
+ Identities = 92/131 (70%), Positives = 100/131 (76%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFSN ++SWVRQAPGKGLEWVA I+       Y
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSNTYISWVRQAPGKGLEWVASITPSSGQTDY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCA+   +  V            MD+
+Sbjct  61   ADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARTWLLRWV------------MDL  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  109  WGQGTLVTVSS  119
+
+
+>pdb|1IGM|H Chain H, Three Dimensional Structure Of An Fv From A Human Igm 
+Immunoglobulin
+Length=129
+
+ Score = 174 bits (440),  Expect = 9e-56, Method: Compositional matrix adjust.
+ Identities = 89/131 (68%), Positives = 100/131 (76%), Gaps = 10/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +V L+ESGG +VQPG SLRLSCAASGFTF+   MSWVRQAPGKGLEWV+ +   G N  Y
+Sbjct  1    EVHLLESGGNLVQPGGSLRLSCAASGFTFNIFVMSWVRQAPGKGLEWVSGVFGSGGNTDY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            AD+VKGRFTI+RDNSKNTLYLQMNSLRAEDTA+YYCAK +   V+           G D 
+Sbjct  61   ADAVKGRFTITRDNSKNTLYLQMNSLRAEDTAIYYCAKHRVSYVLT----------GFDS  110
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  111  WGQGTLVTVSS  121
+
+
+>pdb|3HI5|H Chain H, Crystal Structure Of Fab Fragment Of Al-57
+ pdb|3HI6|H Chain H, Crystal Structure Of Intermediate Affinity I Domain 
+Of Integrin Lfa-1 With The Fab Fragment Of Its Antibody Al-57
+ pdb|3HI6|X Chain X, Crystal Structure Of Intermediate Affinity I Domain 
+Of Integrin Lfa-1 With The Fab Fragment Of Its Antibody Al-57
+Length=220
+
+ Score = 177 bits (448),  Expect = 9e-56, Method: Compositional matrix adjust.
+ Identities = 93/131 (71%), Positives = 100/131 (76%), Gaps = 11/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGFTFS   M WVRQAPGKGLEWV+ I   G N YY
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFTFSRYVMWWVRQAPGKGLEWVSYIWPSGGNTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA             +  +    D+
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCASS-----------YDFWSNAFDI  109
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  110  WGQGTMVTVSS  120
+
+
+>pdb|1DFB|H Chain H, Structure Of A Human Monoclonal Antibody Fab Fragment 
+Against Gp41 Of Human Immunodeficiency Virus Type I
+Length=229
+
+ Score = 177 bits (449),  Expect = 9e-56, Method: Compositional matrix adjust.
+ Identities = 92/133 (69%), Positives = 105/133 (79%), Gaps = 9/133 (7%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPGRSLRLSCAASGFTF++  M WVRQAPGKGLEWV+ IS+D S+  Y
+Sbjct  1    EVQLVESGGGLVQPGRSLRLSCAASGFTFNDYAMHWVRQAPGKGLEWVSGISWDSSSIGY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYY--GM  118
+            ADSVKGRFTISRDN+KN+LYLQMNSLRAED A+YYC K +            G Y+    
+Sbjct  61   ADSVKGRFTISRDNAKNSLYLQMNSLRAEDMALYYCVKGR-------DYYDSGGYFTVAF  113
+
+Query  119  DVWGQGTTVTVSS  131
+            D+WGQGT VTVSS
+Sbjct  114  DIWGQGTMVTVSS  126
+
+
+>pdb|3L95|B Chain B, Crystal Structure Of The Human Notch1 Negative Regulatory 
+Region (nrr) Bound To The Fab Fragment Of An Antagonist 
+Antibody
+ pdb|3L95|H Chain H, Crystal Structure Of The Human Notch1 Negative Regulatory 
+Region (nrr) Bound To The Fab Fragment Of An Antagonist 
+Antibody
+Length=227
+
+ Score = 177 bits (448),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 91/131 (69%), Positives = 100/131 (76%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+ W+ WVRQAPGKGLEWVA I+    +  Y
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYWIHWVRQAPGKGLEWVARINPPNRSNQY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCA+              G+ + MD 
+Sbjct  61   ADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARGS------------GFRWVMDY  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  109  WGQGTLVTVSS  119
+
+
+>pdb|3ZHL|A Chain A, The Crystal Structure Of Single Domain Antibody 8-14 
+Scaffold
+Length=127
+
+ Score = 173 bits (439),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 91/131 (69%), Positives = 99/131 (76%), Gaps = 12/131 (9%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQLVESGGG+VQPG SLRLSCAASGFTFS+  M WVRQAPGKG EWV++IS  G + +Y
+Sbjct  1    EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMGWVRQAPGKGPEWVSLISGSGGSTWY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+             DSVKGRFTISRDNSKN LYLQMNSLRAEDTAVYYCA+            H       D 
+Sbjct  61   DDSVKGRFTISRDNSKNLLYLQMNSLRAEDTAVYYCAR------------HAPSTEAPDY  108
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  109  WGQGTLVTVSS  119
+
+
+>pdb|2NYY|D Chain D, Crystal Structure Of Botulinum Neurotoxin Type A Complexed 
+With Monoclonal Antibody Cr1
+Length=223
+
+ Score = 176 bits (447),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 92/131 (70%), Positives = 100/131 (76%), Gaps = 13/131 (10%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            QVQL ESGGG+VQPG SLRLSCAASGFTF   +M WVRQAPGKGLEWVA IS  GS  YY
+Sbjct  1    QVQLQESGGGLVQPGGSLRLSCAASGFTFKYDYMYWVRQAPGKGLEWVATISDGGSYTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            +DSV+GRFT SRDNSKNTLYLQMNSLRAEDTA+YYC++ +             Y   MD 
+Sbjct  61   SDSVEGRFTTSRDNSKNTLYLQMNSLRAEDTAIYYCSRYR-------------YDDAMDY  107
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  108  WGQGTLVTVSS  118
+
+
+>pdb|1OHQ|A Chain A, Crystal Structure Of Hel4, A Soluble Human Vh Antibody 
+Domain Resistant To Aggregation
+ pdb|1OHQ|B Chain B, Crystal Structure Of Hel4, A Soluble Human Vh Antibody 
+Domain Resistant To Aggregation
+Length=120
+
+ Score = 172 bits (437),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 91/131 (69%), Positives = 101/131 (77%), Gaps = 11/131 (8%)
+
+Query  1    QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYY  60
+            +VQL+ESGGG+VQPG SLRLSCAASGF  S+  M WVRQAPGKGLEWV+ I     + YY
+Sbjct  1    EVQLLESGGGLVQPGGSLRLSCAASGFRISDEDMGWVRQAPGKGLEWVSSIYGPSGSTYY  60
+
+Query  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDV  120
+            ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA     + + P +  LG+      
+Sbjct  61   ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCA-----SALEPLSEPLGF------  109
+
+Query  121  WGQGTTVTVSS  131
+            WGQGT VTVSS
+Sbjct  110  WGQGTLVTVSS  120
+
+
+  Database: PDB protein database
+    Posted date:  Jun 29, 2015  3:22 PM
+  Number of letters in database: 18,991,765
+  Number of sequences in database:  77,700
+
+Lambda      K        H
+   0.318    0.131    0.405 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 77700
+Number of Hits to DB: 2759083
+Number of extensions: 106713
+Number of successful extensions: 3146
+Number of sequences better than 100: 1703
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 1895
+Number of HSP's successfully gapped: 1736
+Length of query: 131
+Length of database: 18991765
+Length adjustment: 89
+Effective length of query: 42
+Effective length of database: 12076465
+Effective search space: 507211530
+Effective search space used: 507211530
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 46 (22.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+

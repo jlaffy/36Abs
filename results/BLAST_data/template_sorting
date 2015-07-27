@@ -1,0 +1,81 @@
+╭─julielaffy@Julies-MacBook-Air  ~/Desktop/36Abs/data/BLAST_data
+╰─$ python BLAST_filter.py
+Counter({'3ZHK': 12, '3KR3': 12, '1T2J': 12, '3BN9': 12, '1MHP': 12, '1DQL': 12, '3EOT': 12, '4Y5X': 12, '4OQT': 12, '3SO3': 12, '2QQN': 12, '1VHP': 12, '4P59': 12, '3QOS': 12, '4LF3': 12, '3HI5': 12, '1W72': 12, '4ERS': 12, '4UTA': 12, '4JFZ': 12, '3GJE': 12, '3GIZ': 12, '3KDM': 12, '4FZ8': 12, '3UX9': 12, '3HAE': 12, '4QCI': 12, '2VXS': 12, '3G6D': 11, '4NKI': 11, '4C2I': 11, '2B2X': 11, '2VYR': 11, '3SKJ': 11, '4UT6': 11, '4JG1': 11, '4JG0': 11, '4XI5': 11, '3UPC': 11, '4LRI': 11, '2GCY': 10, '4U6V': 10, '4UTB': 10, '3NH7': 10, '4Y5V': 10, '3GHE': 10, '4K8R': 10, '2UZI': 9, '4JFY': 9, '2A9N': 9, '3IDX': 8, '1IGM': 8, '1Q1J': 8, '4R90': 8, '1AQK': 8, '3PIQ': 8, '4PGJ': 8, '3U30': 8, '4DKF': 8, '3QYC': 8, '4IOF': 8, '3GHB': 8, '3ZHL': 7, '3DUR': 7, '1SBS': 7, '1AD0': 7, '1NL0': 7, '3DUS': 7, '3F12': 7, '4QWW': 7, '4OGX': 7, '3TNN': 7, '1Q9O': 7, '2FJF': 7, '2V7N': 7, '3GRW': 7, '1FL6': 7, '3SOB': 7, '3PGF': 7, '4CNI': 7, '2A9M': 7, '3ZTJ': 7, '3IJH': 6, '2NZ9': 6, '1MAM': 6, '4ODT': 6, '4Z8F': 6, '1CLO': 6, '1DEE': 6, '1OHQ': 5, '4GXU': 5, '3WD5': 5, '1IAI': 5, '4ORG': 5, '3HR5': 5, '4G5Z': 5, '4NYL': 5, '4PTU': 5, '4FQL': 5, '3EYQ': 5, '4HF5': 5, '3Q6F': 5, '2AAB': 5, '1DFB': 5, '3P0V': 5, '2G5B': 5, '4QF1': 5, '1NFD': 5, '3OKK': 5, '3OKD': 5, '4UT7': 5, '4PY7': 5, '3I2C': 5, '2GHW': 5, '3HZY': 5, '4NNP': 5, '4DGV': 5, '4HIX': 5, '4OD1': 5, '4HIE': 5, '1QLE': 5, '4HH9': 5, '1HEZ': 5, '4KVN': 5, '4ODH': 5, '4OCR': 5, '3IY5': 5, '3L95': 5, '8FAB': 5, '3ZHD': 4, '4CAU': 4, '4OCW': 4, '3U2S': 4, '4QNP': 4, '3U36': 4, '1IEH': 4, '2QHR': 4, '3CXD': 4, '3PNW': 4, '4YAQ': 4, '4G3Y': 4, '2ZUQ': 3, '1DLF': 3, '3R1G': 3, '1QYG': 3, '1WZ1': 3, '2R0L': 3, '4DTG': 3, '1FGV': 3, '2QQK': 3, '3LRS': 3, '3H42': 3, '4K94': 3, '4OD3': 3, '3KYM': 3, '4Y5Y': 2, '1Q9K': 2, '1MF2': 2, '1M71': 2, '4O9H': 2, '4KVC': 2, '4K7P': 2, '1AR1': 2, '1IGC': 2, '2UUD': 2, '1FVD': 2, '3G6J': 2, '1TZI': 2, '3KYK': 2, '1PZ5': 2, '2R23': 2, '3J42': 2, '1SEQ': 2, '1Q72': 2, '3I02': 2, '3S34': 2, '4XMN': 1, '1ADQ': 1, '2QR0': 1, '2NYY': 1, '4OD2': 1, '2R56': 1, '1WC7': 1, '4G6F': 1, '3MUG': 1, '2CJU': 1, '4HLZ': 1, '2FJH': 1, '3NZH': 1, '4XVJ': 1, '3VRL': 1, '4HKZ': 1, '3HZM': 1, '3HZK': 1, '4DQO': 1, '1N8Z': 1, '4OCS': 1, '1FVE': 1, '3BDY': 1, '1FVC': 1, '4UAO': 1})
+
+
+# exclude those not crystal structure, in complex, or containing less than Fab fragment
+
+'1DQL': 12, ? pdb|1DQL|H Chain H, Crystal Structure Of An Unliganded (Native) Fv From A Human Igm Anti-Peptide Antibody
+'3EOT': 12, ? pdb|3EOT|H Chain H, Crystal Structure Of Lac031, An Engineered Anti-Vla1 Fab
+'3QOS': 12, ? pdb|3QOS|H Chain H, Crystal Structure Of Human Germline Antibody 3-23B3
+'4LF3': 12, ? pdb|4LF3|B Chain B, Inhibitory Mechanism Of An Allosteric Antibody Targeting The Glucagon Receptor
+'3HI5': 12, ? pdb|3HI5|H Chain H, Crystal Structure Of Fab Fragment Of Al-57
+'4ERS': 12, ? pdb|4ERS|H Chain H, A Molecular Basis For Negative Regulation Of The Glucagon Receptor
+'3GJE': 12, Y
+'3GIZ': 12, ? pdb|3GIZ|H Chain H, Crystal Structure Of The Fab Fragment Of Anti-Cd20 Antibody Ofatumumab
+'4FZ8': 12, ? pdb|4FZ8|H Chain H, Crystal Structure Of C11 Fab, An Adcc Mediating Anti-hiv-1 Antibody
+'3UX9': 12, ? pdb|3UX9|B Chain B, Structural Insights Into A Human Anti-Ifn Antibody Exerting Therapeutic Potential For Systemic Lupus Erythematosus
+'3HAE': 12, ? pdb|3HAE|H Chain H, Rational Development Of High-Affinity T-Cell Receptor-Like Antibodies
+
+'3ZHK': 12, N (VH domain)
+'3KR3': 12, N (complex)
+'1T2J': 12, N (VH domain)
+'3BN9': 12, N (complex)
+'1MHP': 12, N (complex)
+'4Y5X': 12, N (complex)
+'4OQT': 12, N (complex)
+'3SO3': 12, N (complex)
+'2QQN': 12, N (complex)
+'1VHP': 12, N (NMR)
+'4P59': 12, N (complex)
+'1W72': 12, N (complex)
+'4UTA': 12, N (complex)
+'4JFZ': 12, N (complex)
+'3KDM': 12, N (complex)
+'4QCI': 12, N (complex)
+'2VXS': 12, N (complex)
+
+
+# Y or N to the ? (above) with reason
+
+# NO
+'4LF3': 12, N (complex)
+	pdb|4LF3|B Chain B, Inhibitory Mechanism Of An Allosteric Antibody Targeting The Glucagon Receptor
+
+'3HI5': 12, N (complex)
+	pdb|3HI5|H Chain H, Crystal Structure Of Fab Fragment Of Al-57
+	
+'4ERS': 12, N (complex)
+	pdb|4ERS|H Chain H, A Molecular Basis For Negative Regulation Of The Glucagon Receptor
+
+'3GIZ': 12, N (added a gap of 2 to CDRH3 loop on query - total of same coverage/missing (15/14))
+	pdb|3GIZ|H Chain H, Crystal Structure Of The Fab Fragment Of Anti-Cd20 Antibody Ofatumumab
+
+'3UX9': 12, N (complex)
+	pdb|3UX9|B Chain B, Structural Insights Into A Human Anti-Ifn Antibody Exerting Therapeutic Potential For Systemic Lupus Erythematosus
+
+'3HAE': 12, N (complex)
+	pdb|3HAE|H Chain H, Rational Development Of High-Affinity T-Cell Receptor-Like Antibodies
+
+
+# YES
+'1DQL': 12, Y
+	(kappa pairing, CDR3: 18 covered, 11 not)
+	pdb|1DQL|H Chain H, Crystal Structure Of An Unliganded (Native) Fv From A Human Igm Anti-Peptide Antibody
+
+'3EOT': 12, Y 
+	(kappa pairing, CDR3: 15 covered, 14 not)
+	pdb|3EOT|H Chain H, Crystal Structure Of Lac031, An Engineered Anti-Vla1 Fab
+	
+'3QOS': 12, Y 
+	(kappa pairing, CDR3: 15 covered, 14 not)
+	pdb|3QOS|H Chain H, Crystal Structure Of Human Germline Antibody 3-23B3
+
+'3GJE': 12, Y
+	(lambda pairing, CDR3: 15 covered, 14 not)
+
+'4FZ8': 12, YYY 
+	(kappa pairing, only 3 uncovered in CDRH3!!)
+	pdb|4FZ8|H Chain H, Crystal Structure Of C11 Fab, An Adcc Mediating Anti-hiv-1 Antibody
+	but not suggested on DIG IT! -- they show accession numbers more than PDB
+
