@@ -1,21 +1,17 @@
 #!/usr/bin/Rscript
-preh149MU5_120107 <- read.csv("/Users/julielaffy/36Abs/results/nail120-nail107/preh149MU5_120107.csv")
-preh149MU5_120103 <- read.csv("/Users/julielaffy/36Abs/results/nail120-imml103/preh149MU5_120103.csv")
-preh149MU5_103107 <- read.csv("/Users/julielaffy/36Abs/results/imml103-nail107/preh149MU5_103107.csv")
+p120107 <- read.csv("/Users/julielaffy/36Abs/results/nail120-nail107/preh149MU5_120107.csv")
+p120103 <- read.csv("/Users/julielaffy/36Abs/results/nail120-imml103/preh149MU5_120103.csv")
+p103107 <- read.csv("/Users/julielaffy/36Abs/results/imml103-nail107/preh149MU5_103107.csv")
 
-df <- list(preh149MU5_120107,preh149MU5_120103,preh149MU5_103107)
-sequence <- c(preh149MU5_120107[2])
-sequence
-seq_nums <- 1:(length(preh149MU5_120107))
-seq_nums
+a.a.position <- read.csv("/Users/julielaffy/36Abs/results/lambda_pair/proABC/preh149MU5/preh149MU5big/Prob_Heavy.csv")
+a.a.position <- a.a.position[1,]
+a.a.position <- 1:(length(a.a.position))
 
-counts <- table(preh149MU5_103107, preh149MU5_120103, preh149MU5_120107)
-barplot(counts, main="Differences in preh149MU5(HC)-antigen contacts due to lambda vs. kappa pairing", xlab="sequence", ylab="contact_difference", col=c("orange,purple,cyan)", legend=rownames(counts), beside=TRUE))
-
-        
+       
 #select rows from data.frame
-cont_all_lam <- preh149MU5lam[2,]
-cont_all_kap <- preh149MU5kap[2,]
+sequence <- p120107[,2]
+p120103 <- p120103[2,]
+p103107 <- p103107[2,]
 
 #exclude first element
 cont_all_lam <- c(t(cont_all_lam[-1]))
