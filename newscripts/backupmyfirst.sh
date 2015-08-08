@@ -11,18 +11,18 @@ Larray2=( NAIL107 )
 Hseqid="([a-z]{4}[0-9]{3}(([MUV]{2}[0-9])?))"
 Lseqid="([A-Z]{4}[0-9]{3}/)"
 
-for i in "${Larray[@]}"
+#for i in "${Larray[@]}"
+#do 
+#	sed -E "s/$Lseqid/"${i}/"/g" backupcontdiffs.R > backupcontdiffs.R.tmp && mv backupcontdiffs.R.tmp backupcontdiffs.R
+#	echo replaced with ${i}
+for j in "${Harray[@]}"
 do 
-	sed -E "s/$Lseqid/"${i}/"/g" backupcontdiffs.R > backupcontdiffs.R.tmp && mv backupcontdiffs.R.tmp backupcontdiffs.R
-	echo replaced with ${i}
-	for j in "${Harray2[@]}"
-	do 
-		sed -E "s/$Hseqid/${j}/g" backupcontdiffs.R > backupcontdiffs.R.tmp && mv backupcontdiffs.R.tmp backupcontdiffs.R
-		Rscript backupcontdiffs.R
-		echo replaced with ${j}
-		echo ran ${i} ${j}
-	done
-done	
+	sed -E "s/$Hseqid/${j}/g" backupcontdiffs.R > backupcontdiffs.R.tmp && mv backupcontdiffs.R.tmp backupcontdiffs.R
+	Rscript backupcontdiffs.R
+	echo replaced with ${j}
+	echo ran ${i} ${j}
+done
+#done	
 
 
 
