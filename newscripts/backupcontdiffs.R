@@ -1,17 +1,6 @@
 #!/usr/bin/Rscript
 
-paths=c("boo, far, foo, bar")
-
-lapply <- function
-
-for (path in paths) {
-	data(path)
-	echo
-}
-
-data(x) {
-	print(x)
-}		
+		
 		preh149MU7small <- read.csv("/Users/julielaffy/36Abs/results/lambda_pair/proABC/preh149MU7/preh149MU7small/Prob_Heavy.csv")
 		preh149MU7big <- read.csv("/Users/julielaffy/36Abs/results/lambda_pair/proABC/preh149MU7/preh149MU7big/Prob_Heavy.csv")
 
