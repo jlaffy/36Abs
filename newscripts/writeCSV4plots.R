@@ -29,6 +29,7 @@ NAIL107small <- c(t(NAIL107small[-1]))
 a.a.seq <- preh149MU7_IMML103small[1,]
 a.a.seq <- c(t(a.a.seq[-1]))
 a.a.seq = data.frame(a.a.seq)
+a = table(a.a.seq)
 
 big <- data.frame(NAIL120, IMML103, NAIL107)
 colnames(big) = c("NAIL120big", "IMML103big", "NAIL107big")
@@ -40,6 +41,8 @@ rows = apply(df[, 2:7], 1, function(i) length(unique(i)) > 1)
 selected = df[rows,]
 #write.csv(selected, file = "~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.csv", quote=FALSE)
 
+library(plyr)
+count(selected, "preh149MU7")
 
 library(reshape2)
 library(ggplot2)
@@ -48,6 +51,7 @@ df2 = selected[,c("NAIL120big","IMML103big","NAIL107big")]
 df3 = t(df2)
 df4 = melt(df3)
 
+dataset <- data.frame(id,text)
 jpeg(file="~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.jpg", width=4, height=4, units="in", res=300)
 df4plot = ggplot(data = df4, aes(x = as.factor(Var2), y = value, fill = Var1)) +
   geom_bar(stat = "identity", position = position_dodge(), size=.3) + 
