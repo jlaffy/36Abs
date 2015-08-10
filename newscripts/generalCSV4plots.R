@@ -1,5 +1,17 @@
 #!/usr/bin/Rscript
-#install.packages("ggplot2")
+
+short = list.files(pattern=".{7,10}.csv$")
+long = list.files(pattern="_fullseq_allLight.csv$")
+for (i in 1:length(short)) assign(short[i], read.csv(short[i]))
+for (j in 1:length(long)) assign(long[j], read.csv(long[j]))
+
+print(long[1:10])
+print(short[1:10])
+
+library(plyr)
+dfc = count(df, "preh149MU7")
+dfs = count(selected, "preh149MU7")
+
 preh149MU7_IMML103 <- read.csv("~/36Abs/results/tmp/big_IMML103_heavy/preh149MU7_Prob_Heavy_IMML103_big.csv")
 preh149MU7_NAIL120 <- read.csv("~/36Abs/results/tmp/big_NAIL120_heavy/preh149MU7_Prob_Heavy_NAIL120_big.csv")
 preh149MU7_NAIL107 <- read.csv("~/36Abs/results/tmp/big_NAIL107_heavy/preh149MU7_Prob_Heavy_NAIL107_big.csv")
@@ -23,8 +35,6 @@ NAIL120 <- c(t(NAIL120[-1]))
 NAIL107 <- c(t(NAIL107[-1]))
 
 IMML103small <- c(t(IMML103small[-1]))
-NAIL120small <- c(t(NAIL120small[-1]))
-NAIL107small <- c(t(NAIL107small[-1]))
 
 a.a.seq <- preh149MU7_IMML103small[1,]
 a.a.seq <- c(t(a.a.seq[-1]))
@@ -40,11 +50,8 @@ df = cbind(small,big)
 rows = apply(df[, 2:7], 1, function(i) length(unique(i)) > 1)
 selected = df[rows,]
 #write.csv(selected, file = "~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.csv", quote=FALSE)
-write.csv(df, file = "~/36Abs/results/tmp/CSV4plots/preh149MU7_fullseq_allLight.csv", quote=FALSE)
 
-library(plyr)
-dfc = count(df, "preh149MU7")
-dfs = count(selected, "preh149MU7")
+
 
   
 library(reshape2)
@@ -72,3 +79,11 @@ dev.off()
 ##PREH149MU5
 ##97    A     0     0.1     0.1 (SELECTEDSMALL)(NO CHANGE WHEN BIG ANTIGEN PRESENT -- see below)
 ##97    A     0     0       0 (SELECTED)
+
+read csv in
+for each csv
+count number of residues in sequence nrow(df)
+count occurrences of each amino acid in the full sequence
+divide each of those occurrences by the total sequence length, giving the probability of each residue occuring irrespective of context
+count occurences of each amino acid in selected sequence
+multiple each of thsoe occurences by the probability of the respective amino acid occurring
