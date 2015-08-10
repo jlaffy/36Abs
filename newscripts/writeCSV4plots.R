@@ -1,5 +1,5 @@
 #!/usr/bin/Rscript
-
+#install.packages("ggplot2")
 preh149MU7_IMML103 <- read.csv("~/36Abs/results/tmp/big_IMML103_heavy/preh149MU7_Prob_Heavy_IMML103_big.csv")
 preh149MU7_NAIL120 <- read.csv("~/36Abs/results/tmp/big_NAIL120_heavy/preh149MU7_Prob_Heavy_NAIL120_big.csv")
 preh149MU7_NAIL107 <- read.csv("~/36Abs/results/tmp/big_NAIL107_heavy/preh149MU7_Prob_Heavy_NAIL107_big.csv")
@@ -38,8 +38,26 @@ colnames(small)[1] = "preh149MU7"
 df = cbind(small,big)
 rows = apply(df[, 2:7], 1, function(i) length(unique(i)) > 1)
 selected = df[rows,]
+#write.csv(selected, file = "~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.csv", quote=FALSE)
 
-write.csv(selected, file = "~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.csv", quote=FALSE)
+
+library(reshape2)
+library(ggplot2)
+
+df2 = selected[,c("NAIL120big","IMML103big","NAIL107big")]
+df3 = t(df2)
+df4 = melt(df3)
+
+jpeg(file="~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.jpg", width=4, height=4, units="in", res=300)
+df4plot = ggplot(data = df4, aes(x = as.factor(Var2), y = value, fill = Var1)) +
+  geom_bar(stat = "identity", position = position_dodge(), size=.3) + 
+  scale_fill_hue(name="Light chain ID") + 
+  xlab(c("Amino acid position")) + ylab(c("Contact probability")) +
+  ggtitle(c("Impact of light chain on heavy chain-antigen contacts"))
+dev.off()
+
+
+#selected[,c("NAIL120small","NAIL120big")]
 
 ##IMMH149MV5
 ##97    A     0.5     0.6     0.6 (SELECTEDSMALL)(NO CHANGE WHEN BIG ANTIGEN PRESENT -- see below)
