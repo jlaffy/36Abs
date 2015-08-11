@@ -43,10 +43,12 @@ selected = df[rows,]
 write.csv(df, file = "~/36Abs/results/tmp/CSV4plots/preh149MU7_fullseq_allLight.csv", quote=FALSE)
 
 library(plyr)
-dfc = count(df, "preh149MU7")
-dfs = count(selected, "preh149MU7")
+dfc = as.data.frame(count(df, "preh149MU7"))
+a.a.num = nrow(df)
+dfc[,3] = dfc[,2]/a.a.num
+colnames(dfc)[3] = "wfreq"
+dfs = as.data.frame(count(selected, "preh149MU7"))
 
-  
 library(reshape2)
 library(ggplot2)
 

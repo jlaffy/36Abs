@@ -11,6 +11,13 @@ print(short[1:10])
 library(plyr)
 dfc = count(df, "preh149MU7")
 dfs = count(selected, "preh149MU7")
+library(plyr)
+dfc = as.data.frame(count(df, "preh149MU7"))
+a.a.num = nrow(df)
+dfc[,3] = dfc[,2]/a.a.num
+colnames(dfc)[3] = "wfreq"
+dfs = count(selected, "preh149MU7")
+
 
 preh149MU7_IMML103 <- read.csv("~/36Abs/results/tmp/big_IMML103_heavy/preh149MU7_Prob_Heavy_IMML103_big.csv")
 preh149MU7_NAIL120 <- read.csv("~/36Abs/results/tmp/big_NAIL120_heavy/preh149MU7_Prob_Heavy_NAIL120_big.csv")
