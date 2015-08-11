@@ -2,21 +2,33 @@
 
 short = list.files(pattern=".{7,10}.csv$")
 long = list.files(pattern="_fullseq_allLight.csv$")
-for (i in 1:length(short)) assign(short[i], read.csv(short[i]))
+for (i in 1:length(short)) assign(short[i], read.csv(short[i], col.names))
 for (j in 1:length(long)) assign(long[j], read.csv(long[j]))
 
 print(long[1:10])
 print(short[1:10])
 
-library(plyr)
-dfc = count(df, "preh149MU7")
-dfs = count(selected, "preh149MU7")
+as.data.frame(short)
+
 library(plyr)
 dfc = as.data.frame(count(df, "preh149MU7"))
+dfs = count(selected, "preh149MU7")
 a.a.num = nrow(df)
 dfc[,3] = dfc[,2]/a.a.num
-colnames(dfc)[3] = "wfreq"
-dfs = count(selected, "preh149MU7")
+dfw <- merge(dfc, dfs, by=c("preh149MU7"))
+dfw[,5] = dfw[,3] * dfw[,4]
+colnames(dfw)[2:5] = c("freqWhole", "wfreqWhole", "freqSelect", "wfreqSelect")
+range(dfw["wfreqSelect"])
+
+dfww = (dfw["wfreqSelect"])
+
+myf <- function(a,b,x){
+  a = ((((b-a)*( x - (min(x))))/((max(x)) - (min(x)))) + a)
+  print(a)
+}
+
+lapply(dfww, myf(0,9,dfww))
+
 
 
 preh149MU7_IMML103 <- read.csv("~/36Abs/results/tmp/big_IMML103_heavy/preh149MU7_Prob_Heavy_IMML103_big.csv")
