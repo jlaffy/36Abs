@@ -3,47 +3,39 @@ rm(list=ls(all=TRUE)) #start with empty workspace
 initial.dir = getwd()
 setwd("~/36Abs/results/tmp/CSV4plots/")
 #source("XXXXX.R") #R script containing necessary functions, eg. loading data
-data <- XXXXfunction() #function in R script loaded above
-seqid = "([a-z]{4}[0-9]{3}(([MUV]{2}[0-9])?))"
-read.csv("all.csv")
-
-filenames <- list.files(pattern="all", full.names=TRUE)
-ldf <- lapply(filenames, read.csv)
-res <- lapply(ldf, summary)
-names(ldf) <- grep("[^./][a-z]{4}", filenames,value = TRUE)
-http://stackoverflow.com/questions/6253159/using-lapply-with-changing-arguments
-filenames <- list.files("temp", pattern="*.csv")
-paste("temp", filenames, sep="/")
-
-short = list.files(pattern=".{7,10}.csv$")
-long = list.files(pattern="_fullseq_allLight.csv$")
-for (i in 1:length(short)) assign(short[i], read.csv(short[i], col.names))
-for (j in 1:length(long)) assign(long[j], read.csv(long[j]))
-
-data <- do.call("rbind", lapply(list.files(pattern=".{7,10}.csv$"), read.csv))
-print(long[1:10])
-print(short[1:10])
-
-as.data.frame(short)
+#data <- XXXXfunction() #function in R script loaded above
 
 library(plyr)
-dfc = as.data.frame(count(df, "preh149MU7"))
-dfs = count(selected, "preh149MU7")
-a.a.num = nrow(df)
-dfc[,3] = dfc[,2]/a.a.num
-dfw <- merge(dfc, dfs, by=c("preh149MU7"))
-dfw[,5] = dfw[,3] * dfw[,4]
-colnames(dfw)[2:5] = c("freqWhole", "wfreqWhole", "freqSelect", "wfreqSelect")
-range(dfw["wfreqSelect"])
 
-dfww = (dfw["wfreqSelect"])
+shortfiles <- list.files(pattern=".csv", full.names=TRUE)
+longfiles <- list.files("fullseq", pattern=".csv", full.names=TRUE)
+shortlist <- lapply(shortfiles, read.csv)
+longlist <- lapply(longfiles, read.csv)
 
-myf <- function(a,b,x){
-  a = ((((b-a)*( x - (min(x))))/((max(x)) - (min(x)))) + a)
-  print(a)
+for (i in 1:length(shortlist)) {
+  x = shortlist[[i]][2]
+  y = longlist[[i]][2]
+  weighted.freq(x, y, 1) 
 }
 
-lapply(dfww, myf(0,9,dfww))
+
+## dfc = as.data.frame(count(df, "preh149MU7"))
+## dfs = count(selected, "preh149MU7")
+## a.a.num = nrow(df)
+## dfc[,3] = dfc[,2]/a.a.num
+## dfw <- merge(dfc, dfs, by=c("preh149MU7"))
+## dfw[,5] = dfw[,3] * dfw[,4]
+## colnames(dfw)[2:5] = c("freqWhole", "wfreqWhole", "freqSelect", "wfreqSelect")
+## range(dfw["wfreqSelect"])
+## 
+## dfww = (dfw["wfreqSelect"])
+## 
+## myf <- function(a,b,x){
+##   a = ((((b-a)*( x - (min(x))))/((max(x)) - (min(x)))) + a)
+##   print(a)
+## }
+## 
+## lapply(dfww, myf(0,9,dfww))
 
 
 
