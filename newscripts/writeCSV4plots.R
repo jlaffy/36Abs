@@ -58,8 +58,8 @@ df4 = melt(df3)
 
 jpeg(file="~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.jpg", width=4, height=4, units="in", res=300)
 df4plot = ggplot(data = df4, aes(x = as.factor(Var2), y = value, fill = Var1)) +
-  geom_bar(stat = "identity", width = 1.5, position = position_dodge(), size=.3) + 
-  scale_fill_hue(name="Light chain ID") + 
+  geom_bar(stat = "identity", width = 1.5, position = position_dodge(), size=.3) +
+  scale_fill_hue(name="Light chain ID") +
   xlab(c("Amino acid position")) + ylab(c("Contact probability")) +
   ggtitle(c("Impact of light chain on heavy chain-antigen contacts"))
 dev.off()

@@ -1,10 +1,26 @@
 #!/usr/bin/Rscript
+rm(list=ls(all=TRUE)) #start with empty workspace
+initial.dir = getwd()
+setwd("~/36Abs/results/tmp/CSV4plots/")
+#source("XXXXX.R") #R script containing necessary functions, eg. loading data
+data <- XXXXfunction() #function in R script loaded above
+seqid = "([a-z]{4}[0-9]{3}(([MUV]{2}[0-9])?))"
+read.csv("all.csv")
+
+filenames <- list.files(pattern="all", full.names=TRUE)
+ldf <- lapply(filenames, read.csv)
+res <- lapply(ldf, summary)
+names(ldf) <- grep("[^./][a-z]{4}", filenames,value = TRUE)
+http://stackoverflow.com/questions/6253159/using-lapply-with-changing-arguments
+filenames <- list.files("temp", pattern="*.csv")
+paste("temp", filenames, sep="/")
 
 short = list.files(pattern=".{7,10}.csv$")
 long = list.files(pattern="_fullseq_allLight.csv$")
 for (i in 1:length(short)) assign(short[i], read.csv(short[i], col.names))
 for (j in 1:length(long)) assign(long[j], read.csv(long[j]))
 
+data <- do.call("rbind", lapply(list.files(pattern=".{7,10}.csv$"), read.csv))
 print(long[1:10])
 print(short[1:10])
 
@@ -72,7 +88,7 @@ selected = df[rows,]
 
 
 
-  
+
 library(reshape2)
 library(ggplot2)
 
@@ -82,8 +98,8 @@ df4 = melt(df3)
 
 jpeg(file="~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.jpg", width=4, height=4, units="in", res=300)
 df4plot = ggplot(data = df4, aes(x = as.factor(Var2), y = value, fill = Var1)) +
-  geom_bar(stat = "identity", width = 1.5, position = position_dodge(), size=.3) + 
-  scale_fill_hue(name="Light chain ID") + 
+  geom_bar(stat = "identity", width = 1.5, position = position_dodge(), size=.3) +
+  scale_fill_hue(name="Light chain ID") +
   xlab(c("Amino acid position")) + ylab(c("Contact probability")) +
   ggtitle(c("Impact of light chain on heavy chain-antigen contacts"))
 dev.off()
@@ -99,10 +115,4 @@ dev.off()
 ##97    A     0     0.1     0.1 (SELECTEDSMALL)(NO CHANGE WHEN BIG ANTIGEN PRESENT -- see below)
 ##97    A     0     0       0 (SELECTED)
 
-read csv in
-for each csv
-count number of residues in sequence nrow(df)
-count occurrences of each amino acid in the full sequence
-divide each of those occurrences by the total sequence length, giving the probability of each residue occuring irrespective of context
-count occurences of each amino acid in selected sequence
-multiple each of thsoe occurences by the probability of the respective amino acid occurring
+setwd(initial.dir)
