@@ -42,10 +42,12 @@ subset.data <- function(shortlist, longlist) {
   }
 }
 
-load.data <- function() {
+load.data.short <- function() {
   shortfiles <- list.files(pattern=".csv", full.names=TRUE)
-  longfiles <- list.files("fullseq", pattern=".csv", full.names=TRUE)
   shortlist <- lapply(shortfiles, read.csv)
+}
+
+load.data.long <- function() {
+  longfiles <- list.files("fullseq", pattern=".csv", full.names=TRUE)
   longlist <- lapply(longfiles, read.csv)
-  return(list(shortlist, longlist))
 }
