@@ -5,39 +5,6 @@ setwd("~/36Abs/results/tmp/CSV4plots/")
 #source("XXXXX.R") #R script containing necessary functions, eg. loading data
 #data <- XXXXfunction() #function in R script loaded above
 
-library(plyr)
-
-shortfiles <- list.files(pattern=".csv", full.names=TRUE)
-longfiles <- list.files("fullseq", pattern=".csv", full.names=TRUE)
-shortlist <- lapply(shortfiles, read.csv)
-longlist <- lapply(longfiles, read.csv)
-
-for (i in 1:length(shortlist)) {
-  x = shortlist[[i]][2]
-  y = longlist[[i]][2]
-  weighted.freq(x, y, 1) 
-}
-
-
-## dfc = as.data.frame(count(df, "preh149MU7"))
-## dfs = count(selected, "preh149MU7")
-## a.a.num = nrow(df)
-## dfc[,3] = dfc[,2]/a.a.num
-## dfw <- merge(dfc, dfs, by=c("preh149MU7"))
-## dfw[,5] = dfw[,3] * dfw[,4]
-## colnames(dfw)[2:5] = c("freqWhole", "wfreqWhole", "freqSelect", "wfreqSelect")
-## range(dfw["wfreqSelect"])
-## 
-## dfww = (dfw["wfreqSelect"])
-## 
-## myf <- function(a,b,x){
-##   a = ((((b-a)*( x - (min(x))))/((max(x)) - (min(x)))) + a)
-##   print(a)
-## }
-## 
-## lapply(dfww, myf(0,9,dfww))
-
-
 
 preh149MU7_IMML103 <- read.csv("~/36Abs/results/tmp/big_IMML103_heavy/preh149MU7_Prob_Heavy_IMML103_big.csv")
 preh149MU7_NAIL120 <- read.csv("~/36Abs/results/tmp/big_NAIL120_heavy/preh149MU7_Prob_Heavy_NAIL120_big.csv")
@@ -75,26 +42,27 @@ colnames(small)[1] = "preh149MU7"
 
 df = cbind(small,big)
 rows = apply(df[, 2:7], 1, function(i) length(unique(i)) > 1)
+#selectdata = df[apply(df[, -1], 1, function(x) all(x > 20)), ]
 selected = df[rows,]
 #write.csv(selected, file = "~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.csv", quote=FALSE)
 
 
 
 
-library(reshape2)
-library(ggplot2)
+#library(reshape2)
+#library(ggplot2)
 
-df2 = selected[,c("NAIL120big","IMML103big","NAIL107big")]
-df3 = t(df2)
-df4 = melt(df3)
+#df2 = selected[,c("NAIL120big","IMML103big","NAIL107big")]
+#df3 = t(df2)
+#df4 = melt(df3)
 
-jpeg(file="~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.jpg", width=4, height=4, units="in", res=300)
-df4plot = ggplot(data = df4, aes(x = as.factor(Var2), y = value, fill = Var1)) +
-  geom_bar(stat = "identity", width = 1.5, position = position_dodge(), size=.3) +
-  scale_fill_hue(name="Light chain ID") +
-  xlab(c("Amino acid position")) + ylab(c("Contact probability")) +
-  ggtitle(c("Impact of light chain on heavy chain-antigen contacts"))
-dev.off()
+#jpeg(file="~/36Abs/results/tmp/CSV4plots/preh149MU7_allLight.jpg", width=4, height=4, units="in", res=300)
+#df4plot = ggplot(data = df4, aes(x = as.factor(Var2), y = value, fill = Var1)) +
+#  geom_bar(stat = "identity", width = 1.5, position = position_dodge(), size=.3) +
+#  scale_fill_hue(name="Light chain ID") +
+#  xlab(c("Amino acid position")) + ylab(c("Contact probability")) +
+#  ggtitle(c("Impact of light chain on heavy chain-antigen contacts"))
+#dev.off()
 
 
 #selected[,c("NAIL120small","NAIL120big")]
