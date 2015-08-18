@@ -46,12 +46,6 @@ for j in range(len(light_chains)):
 
             print "Starting " + str(i)
 
-            oldheavy = "Prob_Heavy.csv"
-            oldlight = "Prob_Light.csv"
-            newheavy =  light_project_names[j]+"_"+hvy_project_names[i]+"_Prob_Heavy.csv"
-            newlight =  light_project_names[j]+"_"+hvy_project_names[i]+"_Prob_Light.csv"
-            path = "~/36Abs/results/rawdat_proabc/"+light_project_names[i]+"/"
-            print path
             results_file = "~/36Abs/results/rawdat_proabc/"+light_project_names[j]+"/"
 
             fp = webdriver.FirefoxProfile()
@@ -88,8 +82,18 @@ for j in range(len(light_chains)):
             driver.find_element_by_link_text("Download Heavy Chain Table").click()
             driver.find_element_by_link_text("Download Light Chain Table").click()
             print "Saved csvs to file..."
+            oldheavy = "Prob_Heavy.csv"
+            oldlight = "Prob_Light.csv"
+            newheavy =  light_project_names[j]+"_"+hvy_project_names[i]+"_Prob_Heavy.csv"
+            newlight =  light_project_names[j]+"_"+hvy_project_names[i]+"_Prob_Light.csv"
+            path = "~/36Abs/results/rawdat_proabc/"+light_project_names[i]+"/"
+            print path
             os.rename(os.path.join(path, oldheavy), os.path.join(path, newheavy))
-            ##os.rename("~/36Abs/results/rawdat_proabc/"+light_project_names[i]+"/Prob_Light.csv", "~/36Abs/results/rawdat_proabc/"+light_project_names[i]+"/"
+            # The light and heavy are different in each loop because one has
+            # Prob_light and the other has Prob_heavy. Between loops, the files
+            # are different because the loop goes through the hvy_project_names
+            # list. eg first two files are immh103MV2 and second 2 are
+            # immh149MV5
 
             ##pdb model (B value replaced with contact probabilities (higher prob = darker colour))
             ##driver.find_element_by_link_text("Download 3D Model").click()
