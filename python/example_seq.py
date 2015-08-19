@@ -1,3 +1,7 @@
 import pandas as pd
-data = pd.read_csv("example_seq.csv")
+
+
+def load_chain(filename):
+    return pd.read_csv(filename)
+
 print data
