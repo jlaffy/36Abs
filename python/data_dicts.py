@@ -3,7 +3,6 @@ import glob
 import os
 import csv
 
-
 root_path = "/Users/julielaffy/36Abs/results/rawdat_proabc/"
 os.chdir(root_path)
 
@@ -82,11 +81,11 @@ def get_heavy_antigens(heavy_name):
     return result
 
 
-def write_that_antigen_shit(heavy_result, light_name):
+def write_antigen_varies_csv(heavy_result, light_name):
     output_file = open(heavy_result["name"] + "_" + light_name + ".csv", 'wb')
     writer = csv.writer(output_file)
     sequence = heavy_result["sequence"]
-    light = heavy_result[light_name]
+    light = "light_name" + heavy_result[light_name]
     data = [range(len(sequence) + 1)[1:],
             sequence,
             light["big"],
@@ -95,5 +94,4 @@ def write_that_antigen_shit(heavy_result, light_name):
     writer.writerows(data)
     output_file.close()
 
-
-write_that_antigen_shit(get_heavy_antigens("preh146"), "IMML103")
+write_antigen_varies_csv(get_heavy_antigens("preh149MU7"), "NAIL107")
