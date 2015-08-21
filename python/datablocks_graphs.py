@@ -28,9 +28,9 @@ for filename in glob.glob(path_to_files + '*Prob_Heavy*'):
     antigenbar_dict[heavy_name][light_name][antigen_name] = contact_values
     heavy_ali_dict[light_name][antigen_name][heavy_name] = contact_values
 
-names = lightbar_dict["preh146"]["small"].keys()
+names = antigenbar_dict["preh146"]["IMML103"].keys()
 
-lighties = lightbar_dict["preh146"]["small"].values()
+lighties = antigenbar_dict["preh146"]["IMML103"].values()
 
 n_groups = len(lighties[0])
 
@@ -43,6 +43,7 @@ light3 = map(float, lighties[2])
 fig, ax = plt.subplots()
 
 index = np.arange(n_groups)
+
 bar_width = 0.20
 
 opacity = 0.4
@@ -62,10 +63,11 @@ rects3 = plt.bar(index + bar_width + bar_width, light3, bar_width,
                  color='g',
                  label=names[2])
 
-plt.xlabel('Group')
-plt.ylabel('Scores')
-plt.title('3 chainz')
-plt.xticks(index + bar_width + bar_width, range(n_groups))
+plt.xlabel('amino acid index')
+plt.ylabel('Contact probability')
+# plt.title('L-chain partner affects H-chain - antigen contacts')
+plt.title('Antigen size affects H-chain - antigen contacts')
+plt.xticks(index + bar_width + bar_width, range(n_groups + 1)[1:])
 plt.legend()
 
 plt.tight_layout()

@@ -2,6 +2,7 @@ import glob
 from os.path import expanduser, basename
 import pandas as pd
 import collections
+import csv
 
 
 def nested_dict():
@@ -26,4 +27,10 @@ for filename in glob.glob(path_to_files + '*Prob_Heavy*'):
     antigenbar_dict[heavy_name][light_name][antigen_name] = contact_values
     heavy_ali_dict[light_name][antigen_name][heavy_name] = contact_values
 
-print antigenbar_dict
+
+with open('dict.csv', 'wb') as f:
+    w = csv.DictWriter(f, antigenbar_dict.keys())
+    w.writeheader()
+    w.writerow(antigenbar_dict)
+
+# print antigenbar_dict
