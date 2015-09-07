@@ -14,39 +14,47 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait # available since 2.4.0
 from selenium.webdriver.support import expected_conditions as EC # available since 2.26.0
 
-#exclude light_project names NAIL107 "EIVLTQSPATLSLSPGERATLSCRASQSVSSSYLAWYQQKPGQAPRLLIYGASSRATGIPDRFSGSGSGTDFTLTISRLEPEDFAVYYCQQYGSSPYTFGQGTKLEIK"
 
-#exclude hvy_project_names[i] "immh103MU2". hvy_chain ""EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTAPINIVVVVPAAIKDRDYYYYGMDVWGQGTTVTVSS","
+#exclude hvy_project_names[i] "immh103MU2""preh159MV6". hvy_chain ""EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTAPINIVVVVPAAIKDRDYYYYGMDVWGQGTTVTVSS","EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCILVHIVVVPAAINGYYDFWSGWDVWGQGTTVTVSS""
+
+
+light_project_names = ["NAIL120", "IMML103", "NAIL107"]
 light_chains = ["QSVLTQPPSASGTPGQRVTISCSGSSSNIGSNTVNWYQQLPGTAPKLLIYSNNQRPSGVPDRFSGSKSGTSASLAISGLQSEDEADYYCAAWDDSLNGVVFGGGTKLTVL",
-                "QSVLTQPPSASGTPGQRVTISCSGSSSNIGSNTVNWYQQLPGTAPKLLIYSNNQRPSGVPDRFSGSKSGTSASLAISGLQSEDEADYYCAAWDDSLNGVVFGGGTKLTVL"]
-hvy_project_names = ["immh103MV2", "immh149MV5", "immh159MU5", "naih111", "preh118", "preh119", "preh138MV4", "preh146","preh149MU5", "preh149MU7", "preh159MV6"]
-light_project_names = ["NAIL120", "IMML103"]
+                "EIVLTQSPATLSLSPGERATLSCRASQSVSSYLAWYQQKPGQAPRLLIYDASNRATGIPARFSGSGSGTDFTLTISSLEPEDFAVYYCQQRSNWPLTFGGGTKVEIK",
+                "EIVLTQSPATLSLSPGERATLSCRASQSVSSSYLAWYQQKPGQAPRLLIYGASSRATGIPDRFSGSGSGTDFTLTISRLEPEDFAVYYCQQYGSSPYTFGQGTKLEIK"]
+
+
+hvy_project_names = ["immh103MV2", "immh149MV5", "immh159MU5", "naih111", "preh118", "preh119", "preh138MV4", "preh146","preh149MU5", "preh149MU7"]
 hvy_chains = ["EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTVRDIVVVPAAIGLNYYYGMDVWGQGTTVTVSS",
     "QVQLVESGGGVVQPGRSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVAVISYDGSNKYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDQFVAVVVPAAIHLGYYYGMDVWGQGTTVTVSS",
-    "EVQLVESGGGLVKPGGSLRLSCAASGFMFSSYEMNWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTDLFLRARVVPAAMAPYYYGMDVWGQGTTVTVSS",
+    "EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTPPGHIVVVPAANSLIAAPYYYYGMDVWGQGTTVTVSS",
     "QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYGMHWVRQAPGKGLEWVAVISYDGSNKYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKTLLDVVVVPAATPQNYYYYGMDVWGQGTTVTVSS",
     "QVQLVESGGGVVQPGRSLRLSCAASGFTFSTYPMHWVRQAPGKGLEWVAFLWHDGTEEFYADSVRGRFTISRDNSKNTLYLQMDGLRADDTALYYCARDTGVGGLVVPAATGDLAGYYYGMDVWGQGTTVTVSS",
     "EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTHIVVVPAAIPSHYYYYYGMDVWGQGTTVTVSS",
     "EVQLVESGGGLVKPGGSLRLSCAASGFMFSSYEMNWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTDLFLRARVVPAAMAPYYYGMDVWGQGTTVTVSS",
     "QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVAVISYDGSNKYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKTASFVVVPAAISDGDGYYYYMDVWGKGTTVTVSS",
     "QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYGMHWVRQAPGKGLEWVAVISYDGSNKYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKGAPNIVVVPAAKSAHYYYGMDVWGQGTTVTVSS",
-    "EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTDRWGIVVVPAAKLVSYYGMDVWGQGTTVTVSS",
-    "EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCILVHIVVVPAAINGYYDFWSGWDVWGQGTTVTVSS"]
+    "EVQLVESGGGLVKPGGSLRLSCAASGFTFSNAWMSWVRQAPGKGLEWVGRIKSKTDGGTTDYAAPVKGRFTISRDDSKNTLYLQMNSLKTEDTAVYYCTTDRWGIVVVPAAKLVSYYGMDVWGQGTTVTVSS"]
 
 
-#volume = ["small", "big"]
+volume = ["no", "small", "big"]
 
 
 for j in range(len(light_chains)):
 
-    #for vol in volume:
-    for i in range(len(hvy_chains)):
+    for vol in volume:
+        
+      if vol == "no":
+        size_name = "unknown"
+      else: size_name = vol
+      
+      for i in range(len(hvy_chains)):
 
         try:
 
             print "Starting " + str(i)
 
-            results_file = "~/36Abs/results/rawdat_proabc/"+light_project_names[j]+"/"
+            results_file = "~/36Abs/results/rawdat_proabc/"
 
             fp = webdriver.FirefoxProfile()
             fp.set_preference("browser.download.folderList",2)
@@ -68,7 +76,7 @@ for j in range(len(light_chains)):
             driver.find_element_by_name("email").send_keys("jlaffy7@gmail.com")
             driver.find_element_by_id("light").send_keys(light_chains[j])
             driver.find_element_by_id("heavy").send_keys(hvy_chains[i])
-            #driver.find_element_by_xpath("//select[@name='volume']/option[@value='"+vol+"']").click)
+            driver.find_element_by_xpath("//select[@name='volume']/option[@value='"+vol+"']").click()
             driver.find_element_by_id("invio").click()
             print "Filled form..."
 
@@ -84,21 +92,17 @@ for j in range(len(light_chains)):
             print "Saved csvs to file..."
             oldheavy = "Prob_Heavy.csv"
             oldlight = "Prob_Light.csv"
-            newheavy =  light_project_names[j]+"_"+hvy_project_names[i]+"_Prob_Heavy.csv"
-            newlight =  light_project_names[j]+"_"+hvy_project_names[i]+"_Prob_Light.csv"
-            path = "~/36Abs/results/rawdat_proabc/"+light_project_names[i]+"/"
-            print path
+            newheavy =  hvy_project_names[i]+"_Heavy_"+light_project_names[j]+"_"+size_name+".csv"
+            newlight =  hvy_project_names[i]+"_Light_"+light_project_names[j]+"_"+size_name+".csv"
+            path = "/Users/julielaffy/36Abs/results/rawdat_proabc/"
             os.rename(os.path.join(path, oldheavy), os.path.join(path, newheavy))
-            # The light and heavy are different in each loop because one has
-            # Prob_light and the other has Prob_heavy. Between loops, the files
-            # are different because the loop goes through the hvy_project_names
-            # list. eg first two files are immh103MV2 and second 2 are
-            # immh149MV5
+            os.rename(os.path.join(path, oldlight), os.path.join(path, newlight))
+      
 
             ##pdb model (B value replaced with contact probabilities (higher prob = darker colour))
-            ##driver.find_element_by_link_text("Download 3D Model").click()
-            ##sleep 3 seconds to give you time to click "ok"
-            ##sleep(3)
+            #driver.find_element_by_link_text("Download 3D Model").click()
+            #sleep 3 seconds to give you time to click "ok"
+            #sleep(3)
             ##print "Saved PDB model..."
 
             print ("Bye!")

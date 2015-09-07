@@ -1,0 +1,104 @@
+/* some css here */
+
+#logo {
+	position: relative;
+	top: 12px;
+	left:-5px;
+
+	background: url(public/images/tcoffeelogo-2.png) no-repeat 0% 0%;
+	float: left;
+	font-size: 1px;
+	text-indent: -9999px;
+	width: 300px;
+	height: 70px;
+	
+}
+
+/* some colors */
+
+#content h1 {
+	font-weight: 500;
+}
+
+#content h1 small {
+	font-weight: normal;
+}
+
+#content label small {
+	font-size: 12px;
+	font-weight: 300;
+} 
+
+#content .box,
+#content fieldset,
+#content .box h2 span,
+#content fieldset h2 span
+
+ {
+	background-color: #f4f4f4; 
+}
+
+/* highlight color */
+#content em,
+#content h1 small 
+{
+	color: #0c8aa3;
+}
+
+#content a,
+#footer a
+{
+	color: #0c8aa3;
+	border-color: #0c8aa3; 
+}
+
+
+/* 
+ * declarative menu 
+ */
+ 
+#navigation li a {
+	color: #e3e3e3; 
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); 
+	-webkit-border-radius: 14px; 
+	-moz-border-radius: 14px; 
+	border-radius: 14px;
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out; 
+	-o-transition: all 0.3s ease-in-out; 
+	transition: all 0.3s ease-in-out;	
+	
+}
+
+#navigation li a:hover, 
+#navigation li a:focus {
+	color: #fff; 
+	background: rgba(255, 255, 255, 0.15);
+} 
+ 
+#navigation.index .index a,
+#navigation.history .history a,
+#navigation.references .references a,
+#navigation.tutorial .tutorial a,
+#navigation.contacts .contacts a
+
+{
+	color: #24bae0;	
+}
+
+
+/* 
+ * Home page 
+ */
+ 
+#content .cite {
+	color: #888;
+	border: none;
+} 
+
+#content #mirrors a {
+	border: none;
+	color: #444;
+}
+

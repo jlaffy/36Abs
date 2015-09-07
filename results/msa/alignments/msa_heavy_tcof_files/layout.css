@@ -1,0 +1,852 @@
+/* 
+ * Reset 
+ *
+ */
+ 
+* { margin: 0; padding: 0; }
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+http://ryanfait.com/resources/footer-stick-to-bottom-of-page/
+
+*/
+
+html, body {
+	height: 100%;
+}
+
+#wrapper {
+	text-align: left;
+	width: 1200px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -46px; /* the bottom margin is the negative value of the footer's height */
+}
+
+
+#footer, #push {
+	height: 46px; /* .push must be the same height as .footer */
+}
+
+#footer {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#content {
+	padding-bottom: 20px;
+	margin-bottom: 2em;
+} 
+
+/* end sticky footer */
+
+#logo {
+	float: left;
+}
+
+#logo a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+#navigation {
+	color: white;
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 38px;
+}
+
+#navigation li {
+	display: inline;
+	vertical-align: baseline;
+}
+
+#navigation li a {
+	line-height: 30px;
+	text-decoration: none;
+	padding: 6px 13px;
+	
+	color: white;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+#footer .separator {
+	border-top: 1px solid #DDD;
+	padding-bottom: 14px;
+}
+
+#footer .copy-note {
+	float: left;
+}
+
+#footer img {
+	vertical-align: middle;
+}
+
+#footer .fly-away {
+	float: right;
+	text-align: right;
+	width: 450px;
+}
+
+/* 
+ * Typography 
+ */
+ 
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lobster'), url('http://themes.googleusercontent.com/font?kit=9LpJGtNuM1D8FAZ2BkJH2Q#') format('truetype');
+}
+
+@font-face {
+  font-family: "Vera Mono";
+  src: url("fonts/VeraMono.ttf#") format("truetype");
+}
+
+#content,
+#dialog-content
+ {
+	font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+	color: #444;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+#content b, #content strong {
+	color: #333;
+	font-weight: 400;
+}
+
+#content em {
+	color: #72BBD2;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#content a {
+	color: #72BBD2;
+	font-style: normal;
+	text-decoration: none;
+	border-bottom: 1px dotted #72BBD2; 
+	outline: none;
+}
+
+
+#content p {
+	margin: auto auto 1.6em 0;
+}
+
+#content small {
+	font-size: 13px;
+} 
+
+#content h1 {
+	font-size: 26px;
+	color: #212E3E;
+	font-weight: 350;
+	margin-bottom: 1em;
+}
+
+#content h1 small {
+	display: block;
+	font-size: 20px;
+	font-weight: 100;
+	font-style:italic;
+	color: #72BBD2;
+}
+
+#content h2 
+{
+	font-size: 21px;
+	color: #212E3E;
+	background: transparent url(images/bl.gif) repeat-x 0% bottom;
+	margin-bottom: .6em;
+}
+
+#content h2 span
+ { 
+    background-color: white;
+	padding-right: .5em;
+}
+
+#content .box h2 span,
+#content fieldset h2 span
+{
+	background-color: #f9f9f9;
+}
+
+#content fieldset h2 {
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+#content h2 small {
+	display: block;
+	color: #999;
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 300;
+	position: relative;
+	top: -4px;
+}
+
+
+#content h3 {
+  font-size: 18px;
+} 
+
+
+#content pre,
+#content code { 
+	font-family: "Vera Mono", courier new, courier-new, courier; 
+	font-weight: 100;
+	font-size: .88em;
+	color: #333;
+}
+
+#content code { 
+	white-space: normal; 
+}
+
+#dialog-content h2 {
+	font-size: 1.4em;
+}
+
+#footer a {
+	color: #72BBD2;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* 
+ * Clean and pure css forms
+ * see http://woork.blogspot.com/2008/06/clean-and-pure-css-form-design.html 
+ */
+
+.spacer { clear:both; height:1px; }
+
+#content .box {
+	margin-bottom: 2em;
+	padding: 1.2em 2em 1.6em 2em;
+	background-color: #f9f9f9; 
+}
+
+#content .box-transparent {
+	padding: 1.2em 2em 1.6em 2em;	
+}
+
+#content .box-aqua {
+	background: #EAF2F5;
+	border: 1px solid #BEDCE7;
+}
+
+#content fieldset {
+	margin-top: .4em;
+	margin-bottom: 1em;
+	padding-top: 1.2em;
+	background-color: #f9f9f9; 
+}
+
+
+#content label {
+	display: block;
+	font-weight: 500;
+	text-align: right;
+	width: 220px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#content label small {
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width: 220px;
+}
+
+#content small.size {
+	color: #999;
+	font-size: 0.8em;
+} 
+
+#content input[type='text'], 
+#content input[type='file'],
+#content input[type='password'],
+#content textarea, 
+#content select
+{
+	font-size: inherit;
+	font-weight: normal;
+	border:solid 1px #ddd;
+	padding: 4px 2px;
+	position: relative;
+	top: -4px;
+}
+
+#content input[type='text'], 
+#content select {
+	width: 46em;
+}
+
+#content textarea {
+	width: 54em;
+	font-family: monospace;
+}
+
+#content textarea.field {
+	resize: vertical;
+}
+
+
+#content .c-input { 
+	font-size: 1em;
+	float:left;
+	margin:2px 0 20px 10px;
+	
+}
+
+#content .c-more-options {
+	margin-top: -1em;
+	margin-bottom: 1em;
+}
+
+#content input[type='checkbox'], 
+#content input[type='radio'] {
+    margin: auto 6px 8px 10px;
+}
+
+/* errors */
+
+#content .c-error {
+	display: block;
+	color:red;
+	font-size:15px;
+	font-weight: 500;
+	margin: .3em auto;
+	text-align: left;
+    width: 700px;
+}
+
+#content .hasError {
+	border-left:2px solid red;
+	margin-right:-4px;
+	padding-left:6px; 	
+}
+
+h2.c-error {
+	color: red;
+}
+
+/* 
+ * liscelanea 
+ */
+ 
+ul.list { 
+	list-style:disc;
+	padding-left: 1em;
+}
+
+
+/*	=================================== BUTTONS ===============================
+	AUTHOR: 		David Hund - http://valuedstandards.com
+	License: 		DoWhatEverYouWantButBeNice™
+	Description: 	Various CSS button styles. Semi-crossbrowser.
+
+	Note: 			- Uses inline(!) IE hacks for maintainability etc.
+					- Uses data-uri's for browsers not supporting CSS gradients
+					- Please don't just copy. Use what you need and cleanup!
+
+	Reference:		http://valuedstandards.com/static/test/buttons/
+*/
+
+.button, ul.button-bar li a {
+	/* 	(X-browser-) inline-block */
+	position: relative; /* Google Thinks So: http://vlst.nl/x/3u */
+	display: -moz-inline-stack;  /* Fx: TODO: also test -moz-inline-box?! */
+	display: inline-block; /* Proper */
+	*zoom: 1; /* IE 6-7 */
+	*display: inline; /* IE 6-7 */
+
+	/*	Padding/Margins */
+	padding: .5em 1em;
+	margin: 0 .5em;
+
+	/*	Generic Font Styles */
+	/* outline: none; */ /* Here be dragons! */
+	font: normal 14px/100% Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	vertical-align: middle; /* from: http://vlst.nl/x/3v */
+	*vertical-align: auto; /* from: http://vlst.nl/x/3v */
+
+	/*	Text-Shadow */
+	text-shadow: 0 1px 1px rgba(0,0,0,.4); /* Outset */
+	text-shadow: 0 1px 0 rgba(255,255,255,.6); /* Inset */
+
+	/*	Border Radius */
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	-o-border-radius: .3em; /* Opera removed support but it might work in older (pre 10.5) versions? */
+	border-radius: .3em;
+
+	/*	Box Shadow */
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	/* We could simulate this in IE with ('glow') filters, but we will not... */
+
+	/*	DEFAULT Color: Grey */
+	color: #333;
+	border: solid 1px #999;
+	background: #EEE; /* Basic fallback */
+	/* Fx < 3.6 & other browsers supporting data uri's */
+	background: url("data:image/jpeg,%FF%D8%FF%E0%00%10JFIF%00%01%01%00%00%01%00%01%00%00%FF%DB%00C%00%08%06%06%07%06%05%08%07%07%07%09%09%08%0A%0C%14%0D%0C%0B%0B%0C%19%12%13%0F%14%1D%1A%1F%1E%1D%1A%1C%1C%20%24.'%20%22%2C%23%1C%1C(7)%2C01444%1F'9%3D82%3C.342%FF%DB%00C%01%09%09%09%0C%0B%0C%18%0D%0D%182!%1C!22222222222222222222222222222222222222222222222222%FF%C0%00%11%08%002%00%01%03%01%22%00%02%11%01%03%11%01%FF%C4%00%17%00%01%01%01%01%00%00%00%00%00%00%00%00%00%00%00%00%00%03%02%07%FF%C4%00%15%10%01%01%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%12%FF%C4%00%14%01%01%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%FF%C4%00%14%11%01%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%FF%DA%00%0C%03%01%00%02%11%03%11%00%3F%00%EF%B4%23%40%25B4%02T%23%400%00%3F%FF%D9") repeat-x 0 0;
+	/* Webkit/Safari */
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#DDD));
+	/* Fx 3.6+ */
+	background: -moz-linear-gradient(top,  #FFF,  #DDD);
+	/* We could have this in IE with ('gradient') filters, but we will not... */
+}
+
+/* Ugly hack: but Fx needs this to have INPUT elements the same height as A elements (?) */
+button, input.button, ul.button-bar li a,  x:-moz-any-link { padding: .35em 1em; }
+
+/* 	Hover / Active styles/colors */
+button:hover,
+button:active,
+.button:hover,
+.button:active,
+.button.active,
+ul.button-bar li a:hover,
+ul.button-bar li a:active {
+	/* Default: Grey */
+	border-color: #666;
+	background: #FFF;
+	/* Configure OTHER image URiS for Fx < 3.6 & other browsers supporting data uri's */
+/* 	background: url("data:image/jpeg,%FF%D8%FF%E0%00%10JFIF%00%01%01%00%00%01%00%01%00%00%FF%DB%00C%00%08%06%06%07%06%05%08%07%07%07%09%09%08%0A%0C%14%0D%0C%0B%0B%0C%19%12%13%0F%14%1D%1A%1F%1E%1D%1A%1C%1C%20%24.'%20%22%2C%23%1C%1C(7)%2C01444%1F'9%3D82%3C.342%FF%DB%00C%01%09%09%09%0C%0B%0C%18%0D%0D%182!%1C!22222222222222222222222222222222222222222222222222%FF%C0%00%11%08%002%00%01%03%01%22%00%02%11%01%03%11%01%FF%C4%00%17%00%01%01%01%01%00%00%00%00%00%00%00%00%00%00%00%00%00%03%02%07%FF%C4%00%15%10%01%01%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%12%FF%C4%00%14%01%01%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%FF%C4%00%14%11%01%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%FF%DA%00%0C%03%01%00%02%11%03%11%00%3F%00%EF%B4%23%40%25B4%02T%23%400%00%3F%FF%D9") repeat-x 0 0; */
+	background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(#FFF));
+	background: -moz-linear-gradient(top,  #DDD,  #FFF);
+	text-shadow: none;
+}
+button:active, .button:active, ul.button-bar li a:active { top: 1px; /* Popup the button a bit */ }
+
+/*	ALT Color: orange */
+.orange, .green, .blue { color: #FFF; text-shadow: 0 1px 1px rgba(0,0,0,.4); }
+
+.orange {
+	border-color: #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+}
+.orange:hover, .orange:active, .orange.active {
+	border-color: #da7c0c;
+	background: #f47a20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+}
+/*	ALT Color: green */
+.green {
+	border-color: #6C8F00;
+	background: #90BF00;
+	background: -webkit-gradient(linear, left top, left bottom, from(#90BF00), to(#789F00));
+	background: -moz-linear-gradient(top,  #90BF00,  #789F00);
+}
+.green:active, .green:hover, .green.active {
+	border-color: #6C8F00;
+	background: #789F00;
+	background: -webkit-gradient(linear, left top, left bottom, from(#789F00), to(#90BF00));
+	background: -moz-linear-gradient(top,  #789F00,  #90BF00);
+}
+/*	ALT Color: blue */
+.blue {
+	border-color: #0069BF;
+	background: #0084EF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0084EF), to(#0072CF));
+	background: -moz-linear-gradient(top,  #0084EF,  #0072CF);
+}
+.blue:active, .blue:hover, .blue.active {
+	border-color: #0069BF;
+	background: #0072CF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0072CF), to(#0084EF));
+	background: -moz-linear-gradient(top,  #0072CF,  #0084EF);
+}
+
+/* Fun with Generated Content and Unicode :) */
+/* Only seems to work on A elements though... */
+.fun:after { content: "⎋"; } /* etc. */
+.fun2:after { content: "➔"; }
+.fun3:after { content: "▼"; }
+.fun::after { margin-left: 1em; padding-left: 1em ;border-left: 1px solid #666; }
+
+/* ALT FORMS */
+.inset { 
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: inset 0 0 3px rgba(0,0,0,.5); 
+	box-shadow: inset 0 0 3px rgba(0,0,0,.5);
+}
+
+.rounded { -webkit-border-radius: 1em; -moz-border-radius: 1em; border-radius: 1em; }
+.square, .bullet { -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+.bullet { -webkit-border-top-right-radius: 1em; -webkit-border-bottom-right-radius: 1em; -moz-border-radius-topright: 1em; -moz-border-radius-bottomright: 1em; border-top-right-radius: 1em; border-bottom-right-radius: 1em; }
+.large { font-size: 1.2em; }
+.small { font-size: .7em; padding: .4em .8em; -webkit-border-radius: 2px 2px; -moz-border-radius: 2px 2px; border-radius: 2px 2px; }
+
+.combined, ul.button-bar li a { 
+	margin: 0; 
+	-webkit-border-radius: 0; 
+	-moz-border-radius: 0; 
+	border-radius: 0; 
+	border-width: 1px 0; 
+}
+.combined.first,
+.combined:first-child,
+ul.button-bar li:first-child a { 
+	padding-left: 1.5em; 
+	-webkit-border-top-left-radius: 1em; 
+	-webkit-border-bottom-left-radius: 1em; 
+	-moz-border-radius-topleft: 1em; 
+	-moz-border-radius-bottomleft: 1em; 
+	border-top-left-radius: 1em; 
+	border-bottom-left-radius: 1em; 
+}
+.combined.last,
+.combined:last-child,
+ul.button-bar li:last-child a { 
+	padding-right: 1.5em; 
+	-webkit-border-top-right-radius: 1em; 
+	-webkit-border-bottom-right-radius: 1em; 
+	-moz-border-radius-topright: 1em; 
+	-moz-border-radius-bottomright: 1em; 
+	border-top-right-radius: 1em; 
+	border-bottom-right-radius: 1em; 
+}
+.combined:hover, .combined:active { border-color: #999; }
+.combined.square { -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+
+/* Combined buttons in a bar, in a list. Better semantics and accessibility */
+ul.button-bar { list-style-type: none; margin: 0; padding: 0; }
+ul.button-bar li { display: inline; margin: 0; padding: 0; }
+ul.button-bar li a { /* Same as .button! */}
+
+/* .round with extra span :-( */
+.round {
+	-webkit-border-radius: 1em; 
+	-moz-border-radius: 1em; 
+	border-radius: 1em;
+	padding: .5em;
+	overflow: hidden;
+}
+.round span { position: absolute; left: -999em; /* Hide tekst */ }
+.eject:before { content: "✿"; } /* etc. .eject should be appropriate to the icon obviously */
+.ok:before { content: "✔"; }
+.delete:before { content: "✖"; }
+.go-left:before { content: "←"; } 
+.go-right:before { content: "→"; }
+
+/* .round2 without! extra span :-) */
+.round2 {
+	-webkit-border-radius: 1em; 
+	-moz-border-radius: 1em; 
+	border-radius: 1em;
+	padding: .5em .6em; /* Webkit */
+	text-indent: -999em;
+	overflow: hidden;
+}
+/* Ugly hack: but Fx needs this */
+.round2,  x:-moz-any-link { padding: .5em 1em; }
+.round2:after { content: "✔"; float: left; text-indent: 0; }
+/* Ugly hack: but Fx needs this */
+.round2:after,  x:-moz-any-link { margin-left:  -.35em; }
+
+/*	=================================== / BUTTONS =============================== */
+
+.button.disabled {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	text-shadow: 0;
+	color: #aaa;
+	
+	border: solid 1px #aaa;
+	background: #EEE; 
+
+}
+
+
+button.disabled:hover,
+button.disabled:active,
+.button.disabled:hover,
+.button.disabled:active,
+.button.disabled.active 
+{
+	color: #aaa;
+	border: solid 1px #aaa;
+	background: #EEE; 
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;	
+	top: inherit;
+}
+
+button.disabled:active, .button.disabled:active {  }
+
+/*	=================================== / BUTTONS - disabled =============================== */
+
+
+
+/*
+ * Message boxs 
+ * http://www.jankoatwarpspeed.com/post/2008/05/22/CSS-Message-Boxes-for-different-message-types.aspx
+ */
+ 
+.box-info, .box-success, .box-warn, .box-error {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px 8px;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+
+}
+
+.box-info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('images/box-info.png');
+}
+
+.box-success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('images/box-success.png');
+}
+
+.box-warn {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('images/box-warning.png');
+}
+
+.box-error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('images/box-error.png');
+}
+
+
+/* 
+ * Tables 
+ */
+
+table#box-table-a {
+  margin: .5em 0 1em;
+  border-spacing: 0px;
+  border-bottom: 2px solid #72BBD2;
+}
+
+table#box-table-a td, table#box-table-a th{
+  text-align: left;
+  padding: .4em .8em;
+  vertical-align: top;
+}
+
+table#box-table-a th {
+  background: #212E41;
+  color: #fff;
+  font-weight: normal;
+  border-bottom: 2px solid #72BBD2;
+}
+
+table#box-table-a td{
+  background: transparent;
+}
+
+table#box-table-a tr.even td{
+  background: #EAF2F5;
+}
+
+table#box-table-a tr:hover td{
+  background: #BEDCE7;
+}
+
+/* one column table */
+
+table.one-col a { text-decoration: none;  } 
+
+table.one-col {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+table.one-col td { 
+	padding: 6px;
+}
+
+table.one-col td.oce-first {
+	background: #EAF2F5;	
+	min-height: 32px;
+	border-right: 1px solid #72BBD2;
+	font-weight: 400;
+}
+
+table.one-col tr:hover td{
+  background: #BEDCE7;
+}
+
+
+/* home page table  */
+
+table.c-home {
+	margin-bottom: 1.4em;
+}
+
+table.c-home td {
+	padding: .4em;
+	vertical-align: top;
+}
+
+table.c-home td.c-lbl {
+	text-align: right;
+	width: 9em;
+}
+
+
+
+/* 
+ * skin 
+ */
+ 
+body {
+	background: white url(images/bg.gif) repeat-x 0% 0%;
+	font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
+}
+
+#logo a {
+  font-family: 'Lobster', serif;
+  font-size: 3.5em;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px #999;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1em;	
+  color: #fafafa;
+  margin-top: 10px;
+}
+
+
+#header {
+ 	height: 90px;
+}
+
+#wrapper, #footer {
+
+}
+
+
+#footer {
+	color: #999;
+	font-size: 12px;
+	text-align: left;
+}
+
+#content {
+	padding-top: 40px; 
+}
+
+
+/*  
+ * Admin mode related CSS
+ */
+
+body.admin #header #placeholder {
+	background: url(images/admin.png) no-repeat 0 0;
+	position: absolute;
+	float: left;
+	height: 100px;
+	width: 100px;
+	top: 0px;
+	left: 40px;
+}
+ 
+body.admin #navigation li {
+	padding-left: 14px;
+}
+
+body.admin #content { 
+	color: #666;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+
+@media (max-width: 1024px) {
+	#wrapper {
+		width: 940px;
+	}
+	
+	#footer {
+		width: 940px;
+	}
+
+	#content input[type='text'], 
+  	#content select {
+		width: 26em;
+  	}
+
+	#content textarea {
+ 		width: 44em;
+  	}
+
+}

@@ -52,14 +52,14 @@ def guess_game():
             else:
                 print str(lowrange)+' < chosen < '+ str(hirange)
 
-play_again = raw_input("Would you like to play again? Enter 'y' or 'n'")
-
-def next_game():
-    while play_again != 'y' or play_again != 'n':
-        play_again = raw_input("Would you like to play again? Enter 'y' or 'n'")
-
-    elif play_again == 'y':
-        guess_game()
-
+# play_again = raw_input("Would you like to play again? Enter 'y' or 'n'")
+#
+# def next_game():
+#     while play_again != 'y' or play_again != 'n':
+#         play_again = raw_input("Would you like to play again? Enter 'y' or 'n'")
+#
+#     elif play_again == 'y':
+#         guess_game()
+#
 guess_game()
-next_game()
+# next_game()
